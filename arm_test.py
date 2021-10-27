@@ -17,14 +17,16 @@ def connectMyCopter():
 
     vehicle = connect(connection_string, baud=baud_rate, wait_ready=True)
     print  "Mode: %s" % vehicle.mode.name
+    print  "Armable?: %s" % vehicle.is_armable
+    
     return vehicle
 
 def arm():
-##    while vehicle.is_armable==False:
-    print("Waiting for vehicle to become armable...")
-    time.sleep(1)
-    print("Vehicle is armable")
-
+    while vehicle.mode.name=="GUIDED":
+    	print("Waiting for vehicle to become armable...")
+    	time.sleep(1)
+##    	print("Vehicle is armable")
+    vehicle.mode.name="STABALIZE"
     vehicle.armed=True
     while vehicle.armed==False:
         print("Waiting for drone to arm")
