@@ -16,6 +16,7 @@ def connectMyCopter():
     baud_rate = 921600
 
     vehicle = connect(connection_string, baud=baud_rate, wait_ready=True)
+    print  "Mode: %s" % vehicle.mode.name
     return vehicle
 
 def arm():
