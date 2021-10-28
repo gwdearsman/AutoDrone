@@ -6,8 +6,6 @@ import math
 import argparse
 
 
-vehicle.airspeed = 5
-point1 = LocationGlobalRelative(28.6107822,-81.2098002,20)
 
 
 #####################################################################################################
@@ -54,7 +52,7 @@ def takeoff(targetAltitude):
     while True:
         print " Altitude: ", vehicle.location.global_relative_frame.alt
         #Break and return from function just below target altitude.
-        if vehicle.location.global_relative_frame.alt>=aTargetAltitude*0.95:
+        if vehicle.location.global_relative_frame.alt>=targetAltitude*0.95:
             print "Reached target altitude"
             break
         time.sleep(1)
@@ -78,7 +76,14 @@ def land():
 #####################################################################################################
 ########################################Start of Code################################################
 #####################################################################################################
+
+
+
 vehicle = connectMyCopter()
+point1 = LocationGlobalRelative(28.6107822,-81.2098002,20)
+vehicle.airspeed = 5
+
+
 arm_and_takeoff(20)
 move_to_pos(point1)
 land()
