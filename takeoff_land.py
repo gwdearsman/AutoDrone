@@ -27,11 +27,12 @@ def connectMyCopter():
     return vehicle
 
 def arm():
-    while vehicle.mode.name != "AUTO":
+    while vehicle.channels['6'] < 1800:
     	print("Waiting for vehicle to become armable...")
     	time.sleep(1)
 ##    	print("Vehicle is armable")
     vehicle.mode.name="STABALIZE"
+    time.sleep(1)
     vehicle.armed=True
     while vehicle.armed==False:
         print("Waiting for drone to arm")
