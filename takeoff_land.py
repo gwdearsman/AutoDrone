@@ -27,12 +27,13 @@ def connectMyCopter():
     return vehicle
 
 def arm():
-    while vehicle.channels['6'] < 1800:
+    while vehicle.channels['6'] < 1500:
     	print("Waiting for vehicle to become armable...")
     	time.sleep(1)
 ##    	print("Vehicle is armable")
-    vehicle.mode.name="STABALIZE"
+    vehicle.mode = VehicleMode("GUIDED")
     time.sleep(1)
+    print  "Mode: %s" % vehicle.mode.name
     vehicle.armed=True
     while vehicle.armed==False:
         print("Waiting for drone to arm")
@@ -44,8 +45,9 @@ def arm():
     return None
 
 def takeoff(targetAltitude):
-    vehicle.mode.name = "GUIDED"
     print "Taking off!"
+    print  "Mode: %s" % vehicle.mode.name
+    thrust = 0.7
     vehicle.simple_takeoff(targetAltitude) # Take off to target altitude
 
     # Wait until the vehicle reaches a safe height before processing the goto (otherwise the command
@@ -70,7 +72,7 @@ def move_to_pos(point):
 
 def land():
     print "returning to launch"
-    vehicle.mode.name = "RTL"
+    vehicle.mode = VehicleMode("RTL")
 
 
 
@@ -85,7 +87,8 @@ point1 = LocationGlobalRelative(28.6107822,-81.2098002,20)
 vehicle.airspeed = 5
 
 
-arm_and_takeoff(20)
+arm()
+takeoff(20)
 move_to_pos(point1)
 land()
 
