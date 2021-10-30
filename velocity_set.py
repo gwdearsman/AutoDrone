@@ -4,6 +4,9 @@ import socket
 import exceptions
 import math
 import argparse
+import pymavlink
+import mavutil
+
 
 
 
@@ -117,10 +120,14 @@ arm()
 takeoff(20)
 move_to_pos(point1)
 
+send_ned_velocity(3,0,0,3)
+send_ned_velocity(0,3,0,3)
+send_ned_velocity(0,0,-3,3)
+send_ned_velocity(-3,-3,3,3)
+
 land()
 
 
 
 print("end of script")
-
 
