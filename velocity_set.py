@@ -4,8 +4,7 @@ import socket
 import exceptions
 import math
 import argparse
-import pymavlink
-import mavutil
+from pymavlink import mavutil
 
 
 
