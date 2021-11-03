@@ -15,7 +15,13 @@ Installed Packages:
   sudo pip3 install MAVProxy
   sudo pip3 install future
   sudo apt install fswebcam
-  
+
+sudo nano /boot/config.txt
+    add "dtoverlay=disable-bt" to configure serial port
+    
+to enter mavproxy:
+  mavproxy.py --master=/dev/serial0 --baudrate 921600
+
 For opencv:
 https://www.pyimagesearch.com/2018/09/26/install-opencv-4-on-your-raspberry-pi/
   raspi-config expand file system
@@ -80,26 +86,8 @@ LINK OPENCV with python:(tab completion)
   ln -s /usr/local/python/cv2/python-3.5/cv2.cpython-35m-arm-linux-gnueabihf.so cv2.so
   cd ~
   
+To enter WorkSpace:  
+source ~/.profile   
+workon cv
   
-   
-  
-  
-  
-  sudo pip install opencv
-  sudo apt install fswebcam
-  
-  
-sudo apt install libatlas-base-dev -y
-sudo apt install libjasper-dev -y
-sudo apt install libqtgui4 -y
-sudo apt install python3-pyqt5 -y
-sudo apt install libqt4-test -y
-sudo apt install libhdf5-dev libhdf5-serial-dev -y
-sudo pip3 install opencv-contrib-python==4.1.0.25
-  
-  sudo nano /boot/config.txt
-    add "dtoverlay=disable-bt" to configure serial port
-    
-to enter mavproxy:
-  mavproxy.py --master=/dev/serial0 --baudrate 921600
 
