@@ -75,7 +75,7 @@ Compile Opencv:
   sudo /etc/init.d/dphys-swapfile stop
   sudo /etc/init.d/dphys-swapfile start
   
-LINK OPENCV with python:
+LINK OPENCV with python:(tab completion)
   cd ~/.virtualenvs/cv/lib/python3.5/site-packages/
   ln -s /usr/local/python/cv2/python-3.5/cv2.cpython-35m-arm-linux-gnueabihf.so cv2.so
   cd ~
