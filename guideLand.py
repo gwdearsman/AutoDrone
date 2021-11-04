@@ -148,9 +148,12 @@ def getContours(img):
 	return x+w//2,y+h//2
 
 def trackLand():
+	print("setting yaw")
 	condition_yaw(0,False)
+	print("yaw set")
 	time.sleep(1)
 	while True:
+		print("changing velocity")
 		success,img = cap.read()
 		imgResult = img.copy()
 		x,y = findColor(img, White)
