@@ -34,7 +34,6 @@ def getContours(img):
 	return x+w//2,y+h//2
 
 def trackLand():
-	condition_yaw(0)
 	time.sleep(1)
 	while True:
 		time.sleep(1)
