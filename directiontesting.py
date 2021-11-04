@@ -19,8 +19,7 @@ def findColor(img,White):
 	mask = cv2.inRange(imgHSV,lower,upper)
 	x,y=getContours(mask)
 	cv2.circle(imgResult,(x,y),10,(255,0,0),cv2.FILLED)
-    return x,y
-
+	return x,y
 
 def getContours(img):
 	x,y,w,h = 0,0,0,0
