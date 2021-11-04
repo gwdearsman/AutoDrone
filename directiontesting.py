@@ -21,6 +21,7 @@ def findColor(img,White):
 	cv2.circle(imgResult,(x,y),10,(255,0,0),cv2.FILLED)
     return x,y
 
+
 def getContours(img):
 	x,y,w,h = 0,0,0,0
 	contours,hierarchy = cv2.findContours(img,cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_NONE)
