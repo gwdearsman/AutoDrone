@@ -13,7 +13,8 @@ def findColor(img,White):
 	lower = np.array([White[0],White[1],White[2]])
 	upper = np.array([White[3],White[4],White[5]])
 	mask = cv2.inRange(imgHSV,lower,upper)
-	getContours(mask)
+	x,y=getContours(mask)
+	cv2.circle(imgResult,(x,y),10,(255,0,0),cv2.FILLED)
 
 def getContours(img):
 	contours,hierarchy = cv2.findContours(img,cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_NONE)
@@ -24,6 +25,7 @@ def getContours(img):
 			peri = cv2.arcLength(cnt,True)
 			approx = cv2.approxPolyDP(cnt,0.02*peri,True)
 			x, y, w, h = cv2.boundingRect(approx)
+	return x+w//2,y+h//2
 
 
 while True:
