@@ -11,6 +11,8 @@ import numpy as np
 #####################################################################################################
 
 cap = cv2.VideoCapture(0)
+success,img = cap.read()
+imgResult = img.copy()
 White = [57,0,180,102,65,255]
 def findColor(img,White):
 	imgHSV = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
