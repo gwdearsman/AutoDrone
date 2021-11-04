@@ -34,36 +34,36 @@ def getContours(img):
 	return x+w//2,y+h//2
 
 def trackLand():
-    condition_yaw(0)
-    time.sleep(1)
-    while True:
-        time.sleep(1)
-	    success,img = cap.read()
-	    imgResult = img.copy()
-	    x,y = findColor(img, White)
-        if x=0 and y=0:
-            print("down")
-        elif x<300:
-            if y>240:
-                print("SW")
-            if y<200:
-                print("NW")
-            else:
-                print("West")
-        elif x>340:
-            if y>240:
-                print("SE")
-            if y<200:
-                print("NE")
-            else:
-                print("E")
-        else:
-            if y>240:
-                print("South")
-            if y<200:
-                print("North")
-            else:
-                print("down")
+	condition_yaw(0)
+	time.sleep(1)
+	while True:
+		time.sleep(1)
+		success,img = cap.read()
+		imgResult = img.copy()
+		x,y = findColor(img, White)
+		if x=0 and y=0:
+			print("down")
+		elif x<300:
+			if y>240:
+				print("SW")
+			if y<200:
+				print("NW")
+			else:
+				print("West")
+		elif x>340:
+			if y>240:
+				print("SE")
+			if y<200:
+				print("NE")
+			else:
+				print("E")
+		else:
+			if y>240:
+				print("South")
+			if y<200:
+				print("North")
+			else:
+				print("down")
 
 
 #####################################################################################################

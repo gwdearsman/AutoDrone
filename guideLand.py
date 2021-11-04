@@ -132,7 +132,7 @@ def findColor(img,White):
 	mask = cv2.inRange(imgHSV,lower,upper)
 	x,y=getContours(mask)
 	cv2.circle(imgResult,(x,y),10,(255,0,0),cv2.FILLED)
-    return x,y
+	return x,y
 
 def getContours(img):
 	x,y,w,h = 0,0,0,0
@@ -147,39 +147,38 @@ def getContours(img):
 	return x+w//2,y+h//2
 
 def trackLand():
-    condition_yaw(0)
-    time.sleep(1)
-    while True:
-	    success,img = cap.read()
-	    imgResult = img.copy()
-	    x,y = findColor(img, White)
-        if x=0 and y=0:
-            send_ned_velocity(0,0,0.5,1)
-        elif x<300:
-            if y>240:
-                send_ned_velocity(-0.5,-0.5,0.5,1)
-            if y<200:
-                send_ned_velocity(-0.5,0.5,0.5,1)
-            else:
-                send_ned_velocity(-0.5,0,0.5,1)
-        elif x>340:
-            if y>240:
-                send_ned_velocity(0.5,-0.5,0.5,1)
-            if y<200:
-                send_ned_velocity(0.5,0.5,0.5,1)
-            else:
-                send_ned_velocity(0.5,0,0.5,1)
-        else:
-            if y>240:
-                send_ned_velocity(0,-0.5,0.5,1)
-            if y<200:
-                send_ned_velocity(0,0.5,0.5,1)
-            else:
-                send_ned_velocity(0,0,0.5,1)
-        if vehicle.location.global_relative_frame.alt<=2:
-            print "Reached target altitude"
-            vehicle.mode = VehicleMode("Land")
-            break
+	condition_yaw(0)
+	time.sleep(1)
+	while True:
+		success,img = cap.read()
+		imgResult = img.copy()
+		x,y = findColor(img, White)
+		if x=0 and y=0:
+			send_ned_velocity(0,0,0.5,1)
+		elif x<300:
+			if y>240:
+				send_ned_velocity(-0.5,-0.5,0.5,1)
+			if y<200:
+				send_ned_velocity(-0.5,0.5,0.5,1)
+			else:
+				send_ned_velocity(-0.5,0,0.5,1)
+		elif x>340:
+			if y>240:
+				send_ned_velocity(0.5,-0.5,0.5,1)
+			if y<200:
+				send_ned_velocity(0.5,0.5,0.5,1)
+			else:
+				send_ned_velocity(0.5,0,0.5,1)
+		else:
+			if y>240:
+				send_ned_velocity(0,-0.5,0.5,1)
+			if y<200:
+				send_ned_velocity(0,0.5,0.5,1)
+			else:
+				send_ned_velocity(0,0,0.5,1)
+		if vehicle.location.global_relative_frame.alt<=2:
+			vehicle.mode = VehicleMode("Land")
+			break
 
 
 #####################################################################################################
