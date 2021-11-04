@@ -1,10 +1,10 @@
+from dronekit import connect, VehicleMode, LocationGlobalRelative, APIException
 import cv2
 import time
 import socket
 import argparse
 import math
 import numpy as np
-from dronekit import connect, VehicleMode, LocationGlobalRelative, APIException
 import exceptions
 
 
