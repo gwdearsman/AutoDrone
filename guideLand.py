@@ -124,6 +124,8 @@ def condition_yaw(heading, relative=False):
 #####################################################################################################
 
 cap = cv2.VideoCapture(0)
+success,img = cap.read()
+imgResult = img.copy()
 White = [57,0,180,102,65,255]
 def findColor(img,White):
 	imgHSV = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
@@ -187,11 +189,11 @@ def trackLand():
 
 
 vehicle = connectMyCopter()
-point1 = LocationGlobalRelative(28.6107822,-81.2098002,20)
+point1 = LocationGlobalRelative(28.6107822,-81.2098002,10)
 vehicle.airspeed = 5
 
 arm()
-takeoff(20)
+takeoff(10)
 move_to_pos(point1)
 trackLand()
 #land()
