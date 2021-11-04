@@ -21,42 +21,42 @@ def connectMyCopter():
     baud_rate = 921600
 
     vehicle = connect(connection_string, baud=baud_rate, wait_ready=True)
-    print  "Mode: %s" % vehicle.mode.name
-    print  "Armable?: %s" % vehicle.is_armable
+    #print("Mode: %s" % vehicle.mode.name
+    #print  "Armable?: %s" % vehicle.is_armable
     
     return vehicle
 
 def arm():
     while vehicle.channels['6'] < 1500:
-    	print("Waiting for vehicle to become armable...")
+    	#print("Waiting for vehicle to become armable...")
     	time.sleep(1)
 ##    	print("Vehicle is armable")
     vehicle.mode = VehicleMode("GUIDED")
     time.sleep(1)
-    print  "Mode: %s" % vehicle.mode.name
+    #print  "Mode: %s" % vehicle.mode.name
     vehicle.armed=True
     while vehicle.armed==False:
-        print("Waiting for drone to arm")
+        #print("Waiting for drone to arm")
         time.sleep(1)
 
-    print("Vehicle is now armed.")
-    print("Props are now spinning")
+    #print("Vehicle is now armed.")
+    #print("Props are now spinning")
 
     return None
 
 def takeoff(targetAltitude):
-    print "Taking off!"
-    print  "Mode: %s" % vehicle.mode.name
+    #print "Taking off!"
+    #print  "Mode: %s" % vehicle.mode.name
     thrust = 0.7
     vehicle.simple_takeoff(targetAltitude) # Take off to target altitude
 
     # Wait until the vehicle reaches a safe height before processing the goto (otherwise the command
     #  after Vehicle.simple_takeoff will execute immediately).
     while True:
-        print " Altitude: ", vehicle.location.global_relative_frame.alt
+        #print " Altitude: ", vehicle.location.global_relative_frame.alt
         #Break and return from function just below target altitude.
         if vehicle.location.global_relative_frame.alt>=targetAltitude*0.95:
-            print "Reached target altitude"
+            #print "Reached target altitude"
             break
         time.sleep(1)
 
@@ -68,10 +68,10 @@ def arm_and_takeoff(targetAltitude):
 def move_to_pos(point):
     vehicle.simple_goto(point)
     time.sleep(30)
-    print "moving to next location"
+    #print "moving to next location"
 
 def land():
-    print "returning to launch"
+    #print "returning to launch"
     vehicle.mode = VehicleMode("RTL")
 
 def send_ned_velocity(velocity_x, velocity_y, velocity_z, duration):
