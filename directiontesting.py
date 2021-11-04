@@ -41,7 +41,7 @@ def trackLand():
 		success,img = cap.read()
 		imgResult = img.copy()
 		x,y = findColor(img, White)
-		if x=0 and y=0:
+		if x==0 and y==0:
 			print("down")
 		elif x<300:
 			if y>240:

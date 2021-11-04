@@ -153,7 +153,7 @@ def trackLand():
 		success,img = cap.read()
 		imgResult = img.copy()
 		x,y = findColor(img, White)
-		if x=0 and y=0:
+		if x==0 and y==0:
 			send_ned_velocity(0,0,0.5,1)
 		elif x<300:
 			if y>240:
