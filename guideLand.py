@@ -193,7 +193,7 @@ vehicle.airspeed = 5
 arm()
 takeoff(20)
 move_to_pos(point1)
-trackland()
+trackLand()
 #land()
 
 
