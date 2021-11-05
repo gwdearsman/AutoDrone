@@ -35,7 +35,7 @@ def getContours(img):
 			x, y, w, h = cv2.boundingRect(approx)
 	return x+w//2,y+h//2
 
-def trackland():
+def trackLand():
 	print("starting object tracking")
 	time.sleep(1)
 	while True:

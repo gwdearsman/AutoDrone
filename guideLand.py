@@ -143,7 +143,7 @@ def getContours(img):
 			x, y, w, h = cv2.boundingRect(approx)
 	return x+w//2,y+h//2
 
-def trackland():
+def trackLand():
     print("setting yaw")
     condition_yaw(0,False)
     print("yaw set")
