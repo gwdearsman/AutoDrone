@@ -22,6 +22,7 @@ def findColor(img,White):
 	x,y=getContours(mask)
 	cv2.circle(imgResult,(x,y),10,(255,0,0),cv2.FILLED)
 	cv2.imshow("Mask",imgResult)
+	cv2.imshow("Image",img)
 	return x,y
 
 def getContours(img):
