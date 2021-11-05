@@ -148,8 +148,8 @@ def trackland():
     condition_yaw(0,False)
     print("yaw set")
     time.sleep(1)
+    print("starting object tracking")
     while True:
-        print("starting object tracking")
         success,img = cap.read()
         imgResult = img.copy()
         x,y = findColor(img, White)

@@ -35,36 +35,21 @@ def getContours(img):
 			x, y, w, h = cv2.boundingRect(approx)
 	return x+w//2,y+h//2
 
-def trackLand():
+def trackland():
+	print("starting object tracking")
 	time.sleep(1)
 	while True:
-		time.sleep(1)
 		success,img = cap.read()
 		imgResult = img.copy()
 		x,y = findColor(img, White)
-		if x==0 and y==0:
-			print("down")
-		elif x<300:
-			if y>240:
-				print("SW")
-			if y<200:
-				print("NW")
-			else:
-				print("West")
-		elif x>340:
-			if y>240:
-				print("SE")
-			if y<200:
-				print("NE")
-			else:
-				print("E")
-		else:
-			if y>240:
-				print("South")
-			if y<200:
-				print("North")
-			else:
-				print("down")
+		x_rel = x-320
+		y_rel = 220-y
+		print("x location: " + str(x_rel) + "  y location: " + str(y_rel))
+		sw_velocity = x_rel/640
+		fw_velocity = y_rel/440
+		print("x velocity: " + str(fw_velocity) + "  y velocity: " + str(sw_velocity))
+		time.sleep(0.1)
+        
 
 
 #####################################################################################################
