@@ -42,16 +42,17 @@ def trackLand():
 	while True:
 		success,img = cap.read()
 		imgResult = img.copy()
+		x,y = findColor(img, White)
 		cv2.imshow("Mask",imgResult)
 		cv2.imshow("Image",img)
-		x,y = findColor(img, White)
 		x_rel = x-320
 		y_rel = 220-y
 		print("x location: " + str(x_rel) + "  y location: " + str(y_rel))
 		sw_velocity = x_rel/640
 		fw_velocity = y_rel/440
 		print("x velocity: " + str(fw_velocity) + "  y velocity: " + str(sw_velocity))
-		time.sleep(0.1)
+		if cv2.waitKey(100) >= 0:
+			break
         
 
 
