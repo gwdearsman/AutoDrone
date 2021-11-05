@@ -11,6 +11,9 @@ import numpy as np
 #####################################################################################################
 
 cap = cv2.VideoCapture(0)
+img
+imgResult
+
 White = [0,0,190,43,43,255]
 def findColor(img,White):
 	imgHSV = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
@@ -19,8 +22,6 @@ def findColor(img,White):
 	mask = cv2.inRange(imgHSV,lower,upper)
 	x,y=getContours(mask)
 	cv2.circle(imgResult,(x,y),10,(255,0,0),cv2.FILLED)
-	cv2.imshow("Mask",imgResult)
-	cv2.imshow("Image",img)
 	return x,y
 
 def getContours(img):
@@ -41,6 +42,8 @@ def trackLand():
 	while True:
 		success,img = cap.read()
 		imgResult = img.copy()
+		cv2.imshow("Mask",imgResult)
+		cv2.imshow("Image",img)
 		x,y = findColor(img, White)
 		x_rel = x-320
 		y_rel = 220-y
