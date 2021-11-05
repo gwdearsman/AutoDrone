@@ -23,7 +23,6 @@ def connectMyCopter():
     vehicle = connect(connection_string, baud=baud_rate, wait_ready=True)
     #print("Mode: %s" % vehicle.mode.name
     #print  "Armable?: %s" % vehicle.is_armable
-    
     return vehicle
 
 def arm():
@@ -33,15 +32,15 @@ def arm():
 ##    	print("Vehicle is armable")
     vehicle.mode = VehicleMode("GUIDED")
     time.sleep(1)
-    #print  "Mode: %s" % vehicle.mode.name
-    vehicle.armed=True
     while vehicle.armed==False:
-        #print("Waiting for drone to arm")
+        print("Waiting for drone to arm")
+        vehicle.armed=True
         time.sleep(1)
-
-    #print("Vehicle is now armed.")
-    #print("Props are now spinning")
-
+        if vehicle.armed==True:
+            break
+        time.sleep(5)
+    print("Vehicle is now armed.")
+    print("Props are now spinning")
     return None
 
 def takeoff(targetAltitude):
@@ -66,12 +65,12 @@ def arm_and_takeoff(targetAltitude):
 
 
 def move_to_pos(point):
+    print("moving to next location")
     vehicle.simple_goto(point)
     time.sleep(30)
-    #print "moving to next location"
 
-def land():
-    #print "returning to launch"
+def landHome():
+    print("returning to launch")
     vehicle.mode = VehicleMode("RTL")
 
 def send_ned_velocity(velocity_x, velocity_y, velocity_z, duration):
@@ -81,18 +80,14 @@ def send_ned_velocity(velocity_x, velocity_y, velocity_z, duration):
     msg = vehicle.message_factory.set_position_target_local_ned_encode(
         0,       # time_boot_ms (not used)
         0, 0,    # target system, target component
-        mavutil.mavlink.MAV_FRAME_LOCAL_NED, # frame
+        mavutil.mavlink.MAV_FRAME_BODY_OFFSET_NED, # frame
         0b0000111111000111, # type_mask (only speeds enabled)
         0, 0, 0, # x, y, z positions (not used)
         velocity_x, velocity_y, velocity_z, # x, y, z velocity in m/s
         0, 0, 0, # x, y, z acceleration (not supported yet, ignored in GCS_Mavlink)
         0, 0)    # yaw, yaw_rate (not supported yet, ignored in GCS_Mavlink)
 
-
-    # send command to vehicle on 1 Hz cycle
-    for x in range(0,duration):
-        vehicle.send_mavlink(msg)
-        time.sleep(1)
+    time.sleep(duration)
 # Set up velocity mappings
 # velocity_x > 0 => fly North
 # velocity_x < 0 => fly South
@@ -141,13 +136,35 @@ def getContours(img):
 	contours,hierarchy = cv2.findContours(img,cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_NONE)
 	for cnt in contours:
 		area = cv2.contourArea(cnt)
-		if area>500:
+		if area>400:
 			cv2.drawContours(imgResult, cnt, -1, (255,0,0), 3)
 			peri = cv2.arcLength(cnt,True)
 			approx = cv2.approxPolyDP(cnt,0.02*peri,True)
 			x, y, w, h = cv2.boundingRect(approx)
 	return x+w//2,y+h//2
 
+def trackland():
+    print("setting yaw")
+    condition_yaw(0,False)
+    print("yaw set")
+    time.sleep(1)
+    while True:
+        print("starting object tracking")
+        success,img = cap.read()
+        imgResult = img.copy()
+        x,y = findColor(img, White)
+        x_rel = x-320
+        y_rel = 220-y
+        print("x location: " + str(x_rel) + "  y location: " + str(y_rel))
+        sw_velocity = x_rel/640
+        fw_velocity = y_rel/440
+        send_ned_velocity(fw_velocity,sw_velocity,0.3,0.1)
+        if vehicle.location.global_relative_frame.alt<=2:
+            print("close to ground, preparing to land")
+            vehicle.mode = VehicleMode("Land")
+            break
+
+"""
 def trackLand():
 	print("setting yaw")
 	condition_yaw(0,False)
@@ -184,7 +201,7 @@ def trackLand():
 		if vehicle.location.global_relative_frame.alt<=2:
 			vehicle.mode = VehicleMode("Land")
 			break
-
+"""
 
 #####################################################################################################
 ########################################Start of Code################################################
@@ -199,7 +216,7 @@ arm()
 takeoff(10)
 move_to_pos(point1)
 trackLand()
-#land()
+#landHome()
 
 
 
