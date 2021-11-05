@@ -42,6 +42,7 @@ def trackLand():
 		success,img = cap.read()
 		imgResult = img.copy()
 		x,y = findColor(img, White)
+		cv2.imshow("Mask",imgResult)
 		x_rel = x-320
 		y_rel = 220-y
 		print("x location: " + str(x_rel) + "  y location: " + str(y_rel))
