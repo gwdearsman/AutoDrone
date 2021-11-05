@@ -21,15 +21,12 @@ def connectMyCopter():
     baud_rate = 921600
 
     vehicle = connect(connection_string, baud=baud_rate, wait_ready=True)
-    #print("Mode: %s" % vehicle.mode.name
-    #print  "Armable?: %s" % vehicle.is_armable
     return vehicle
 
 def arm():
     while vehicle.channels['6'] < 1500:
     	#print("Waiting for vehicle to become armable...")
     	time.sleep(1)
-##    	print("Vehicle is armable")
     vehicle.mode = VehicleMode("GUIDED")
     time.sleep(1)
     while vehicle.armed==False:
@@ -44,8 +41,7 @@ def arm():
     return None
 
 def takeoff(targetAltitude):
-    #print "Taking off!"
-    #print  "Mode: %s" % vehicle.mode.name
+    print("Taking off!")
     thrust = 0.7
     vehicle.simple_takeoff(targetAltitude) # Take off to target altitude
 
@@ -55,14 +51,13 @@ def takeoff(targetAltitude):
         #print " Altitude: ", vehicle.location.global_relative_frame.alt
         #Break and return from function just below target altitude.
         if vehicle.location.global_relative_frame.alt>=targetAltitude*0.95:
-            #print "Reached target altitude"
+            print("Reached target altitude")
             break
         time.sleep(1)
 
 def arm_and_takeoff(targetAltitude):
     arm()
     takeoff(targetAltitude)
-
 
 def move_to_pos(point):
     print("moving to next location")
@@ -73,6 +68,7 @@ def landHome():
     print("returning to launch")
     vehicle.mode = VehicleMode("RTL")
 
+#MAV_FRAME_BODY_OFFSET_NED sets NORTH=Forward and EAST=Right
 def send_ned_velocity(velocity_x, velocity_y, velocity_z, duration):
     """
     Move vehicle in direction based on specified velocity vectors.
@@ -88,13 +84,7 @@ def send_ned_velocity(velocity_x, velocity_y, velocity_z, duration):
         0, 0)    # yaw, yaw_rate (not supported yet, ignored in GCS_Mavlink)
 
     time.sleep(duration)
-# Set up velocity mappings
-# velocity_x > 0 => fly North
-# velocity_x < 0 => fly South
-# velocity_y > 0 => fly East
-# velocity_y < 0 => fly West
-# velocity_z < 0 => ascend
-# velocity_z > 0 => descend
+
 
 def condition_yaw(heading, relative=False):
     if relative:
@@ -123,85 +113,63 @@ success,img = cap.read()
 imgResult = img.copy()
 White = [0,0,190,43,43,255]
 def findColor(img,White):
+    #converts image to HSV color spectrum, less sensitive to lighting as compared to RGB
 	imgHSV = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 	lower = np.array([White[0],White[1],White[2]])
 	upper = np.array([White[3],White[4],White[5]])
 	mask = cv2.inRange(imgHSV,lower,upper)
 	x,y,img=getContours(img,mask)
 	cv2.circle(img,(x,y),10,(255,0,0),cv2.FILLED)
+    #slaps a beautiful blue circle onto the detected object
 	return x,y,img
 
 def getContours(img):
+    #inputs a masked image from findColor and maps its contours
 	x,y,w,h = 320,220,0,0
 	contours,hierarchy = cv2.findContours(img,cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_NONE)
 	for cnt in contours:
 		area = cv2.contourArea(cnt)
 		if area>400:
+            #removes noise by excluding small areas
 			cv2.drawContours(img, cnt, -1, (255,0,0), 3)
 			peri = cv2.arcLength(cnt,True)
 			approx = cv2.approxPolyDP(cnt,0.02*peri,True)
 			x, y, w, h = cv2.boundingRect(approx)
+        #returns the bounding box centerpoint for the detected color
 	return x+w//2,y+h//2,img
 
 def trackLand():
+    fwTopSpeed = 0.5 #m/s
+    swTopSpeed = 0.5 #m/s
+    vertSpeed = 0.3 #m/s
+    refreshRate = 10 #Hz
+
     print("setting yaw")
+    #Orients drone North. The need for this has been removed after switching
+    # to body coordinates from NED. It can remain for debugging purposes
     condition_yaw(0,False)
     print("yaw set")
     time.sleep(1)
+
     print("starting object tracking")
     while True:
         success,img = cap.read()
         imgResult = img.copy()
         x,y,imgResult = findColor(img, White)
+        #converts 0,0 position from top left corner to center of camera
         x_rel = x-320
         y_rel = 220-y
         print("x location: " + str(x_rel) + "  y location: " + str(y_rel))
-        sw_velocity = x_rel/640
-        fw_velocity = y_rel/440
-        send_ned_velocity(fw_velocity,sw_velocity,0.3,0.1)
+        #converts pixel offset to velocity settings
+        sw_velocity = x_rel/(320/fwTopSpeed)
+        fw_velocity = y_rel/(220/swTopSpeed)
+        send_ned_velocity(fw_velocity,sw_velocity,vertSpeed,1/refreshRate)
         if vehicle.location.global_relative_frame.alt<=2:
+            #safe landing when approaching ground
             print("close to ground, preparing to land")
             vehicle.mode = VehicleMode("Land")
             break
 
-"""
-def trackLand():
-	print("setting yaw")
-	condition_yaw(0,False)
-	print("yaw set")
-	time.sleep(1)
-	while True:
-		print("changing velocity")
-		success,img = cap.read()
-		imgResult = img.copy()
-		x,y = findColor(img, White)
-		if x==0 and y==0:
-			send_ned_velocity(0,0,0.5,1)
-		elif x<300:
-			if y>240:
-				send_ned_velocity(-0.5,-0.5,0.5,1)
-			if y<200:
-				send_ned_velocity(-0.5,0.5,0.5,1)
-			else:
-				send_ned_velocity(-0.5,0,0.5,1)
-		elif x>340:
-			if y>240:
-				send_ned_velocity(0.5,-0.5,0.5,1)
-			if y<200:
-				send_ned_velocity(0.5,0.5,0.5,1)
-			else:
-				send_ned_velocity(0.5,0,0.5,1)
-		else:
-			if y>240:
-				send_ned_velocity(0,-0.5,0.5,1)
-			if y<200:
-				send_ned_velocity(0,0.5,0.5,1)
-			else:
-				send_ned_velocity(0,0,0.5,1)
-		if vehicle.location.global_relative_frame.alt<=2:
-			vehicle.mode = VehicleMode("Land")
-			break
-"""
 
 #####################################################################################################
 ########################################Start of Code################################################
@@ -209,15 +177,14 @@ def trackLand():
 
 
 vehicle = connectMyCopter()
-point1 = LocationGlobalRelative(28.6107822,-81.2098002,10)
 vehicle.airspeed = 5
+
+#points to travel to
+point1 = LocationGlobalRelative(28.6107822,-81.2098002,10)
 
 arm()
 takeoff(10)
 move_to_pos(point1)
 trackLand()
-#landHome()
-
-
 
 print("end of script")
