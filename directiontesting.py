@@ -11,8 +11,8 @@ import numpy as np
 #####################################################################################################
 
 cap = cv2.VideoCapture(0)
-img
-imgResult
+img = cap
+imgResult = img
 
 White = [0,0,190,43,43,255]
 def findColor(img,White):
