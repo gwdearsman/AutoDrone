@@ -20,21 +20,21 @@ def findColor(img,White):
 	lower = np.array([White[0],White[1],White[2]])
 	upper = np.array([White[3],White[4],White[5]])
 	mask = cv2.inRange(imgHSV,lower,upper)
-	x,y=getContours(mask)
-	cv2.circle(imgResult,(x,y),10,(255,0,0),cv2.FILLED)
-	return x,y
+	x,y,img=getContours(img,mask)
+	cv2.circle(img,(x,y),10,(255,0,0),cv2.FILLED)
+	return x,y,img
 
-def getContours(img):
+def getContours(img,mask):
 	x,y,w,h = 320,220,0,0
-	contours,hierarchy = cv2.findContours(img,cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_NONE)
+	contours,hierarchy = cv2.findContours(mask,cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_NONE)
 	for cnt in contours:
 		area = cv2.contourArea(cnt)
 		if area>500:
-			cv2.drawContours(imgResult, cnt, -1, (255,0,0), 3)
+			cv2.drawContours(img, cnt, -1, (255,0,0), 3)
 			peri = cv2.arcLength(cnt,True)
 			approx = cv2.approxPolyDP(cnt,0.02*peri,True)
 			x, y, w, h = cv2.boundingRect(approx)
-	return x+w//2,y+h//2
+	return x+w//2,y+h//2,img
 
 def trackLand():
 	print("starting object tracking")
@@ -42,9 +42,8 @@ def trackLand():
 	while True:
 		success,img = cap.read()
 		imgResult = img.copy()
-		x,y = findColor(img, White)
+		x,y,imgResult = findColor(img, White)
 		cv2.imshow("Mask",imgResult)
-		cv2.imshow("Image",img)
 		x_rel = x-320
 		y_rel = 220-y
 		print("x location: " + str(x_rel) + "  y location: " + str(y_rel))
