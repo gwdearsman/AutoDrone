@@ -11,7 +11,7 @@ import numpy as np
 #####################################################################################################
 
 cap = cv2.VideoCapture(0)
-img = cap.read()
+success,img = cap.read()
 imgResult = img.copy()
 
 White = [0,0,190,43,43,255]
