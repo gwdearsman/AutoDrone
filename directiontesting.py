@@ -21,6 +21,7 @@ def findColor(img,White):
 	mask = cv2.inRange(imgHSV,lower,upper)
 	x,y=getContours(mask)
 	cv2.circle(imgResult,(x,y),10,(255,0,0),cv2.FILLED)
+	cv2.imshow("Mask",imgResult)
 	return x,y
 
 def getContours(img):
@@ -42,7 +43,6 @@ def trackLand():
 		success,img = cap.read()
 		imgResult = img.copy()
 		x,y = findColor(img, White)
-		cv2.imshow("Mask",imgResult)
 		x_rel = x-320
 		y_rel = 220-y
 		print("x location: " + str(x_rel) + "  y location: " + str(y_rel))
