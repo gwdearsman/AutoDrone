@@ -121,7 +121,7 @@ def condition_yaw(heading, relative=False):
 cap = cv2.VideoCapture(0)
 success,img = cap.read()
 imgResult = img.copy()
-White = [57,0,180,102,65,255]
+White = [0,0,190,43,43,255]
 def findColor(img,White):
 	imgHSV = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 	lower = np.array([White[0],White[1],White[2]])
