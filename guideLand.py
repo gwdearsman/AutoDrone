@@ -82,7 +82,7 @@ def send_ned_velocity(velocity_x, velocity_y, velocity_z, duration):
         velocity_x, velocity_y, velocity_z, # x, y, z velocity in m/s
         0, 0, 0, # x, y, z acceleration (not supported yet, ignored in GCS_Mavlink)
         0, 0)    # yaw, yaw_rate (not supported yet, ignored in GCS_Mavlink)
-
+    vehicle.send_mavlink(msg)
     time.sleep(duration)
 
 
