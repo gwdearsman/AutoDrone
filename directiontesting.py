@@ -49,6 +49,7 @@ def trackLand():
 		success,img = cap.read()
 		imgResult = img.copy()
 		x,y,imgResult = findColor(img, White)
+		cv2.imshow("Mask",imgResult)
 		#converts 0,0 position from top left corner to center of camera
 		x_rel = x-320
 		y_rel = 220-y
