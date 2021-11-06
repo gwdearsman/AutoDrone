@@ -57,7 +57,7 @@ def trackLand():
 		sw_velocity = x_rel/(320/fwTopSpeed)
 		fw_velocity = y_rel/(220/swTopSpeed)
 		print("x velocity: " + str(fw_velocity) + "  y velocity: " + str(sw_velocity))
-		if cv2.waitKey(1000/refreshRate) >= 0:
+		if cv2.waitKey(int(1000/refreshRate)) >= 0:
 			break
 
 """
