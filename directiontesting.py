@@ -37,6 +37,31 @@ def getContours(img,mask):
 	return x+w//2,y+h//2,img
 
 def trackLand():
+	fwTopSpeed = 0.5 #m/s
+	swTopSpeed = 0.5 #m/s
+	vertSpeed = 0.3 #m/s
+	refreshRate = 10 #Hz
+
+	time.sleep(1)
+
+	print("starting object tracking")
+	while True:
+		success,img = cap.read()
+		imgResult = img.copy()
+		x,y,imgResult = findColor(img, White)
+		#converts 0,0 position from top left corner to center of camera
+		x_rel = x-320
+		y_rel = 220-y
+		print("x location: " + str(x_rel) + "  y location: " + str(y_rel))
+		#converts pixel offset to velocity settings
+		sw_velocity = x_rel/(320/fwTopSpeed)
+		fw_velocity = y_rel/(220/swTopSpeed)
+		print("x velocity: " + str(fw_velocity) + "  y velocity: " + str(sw_velocity))
+		if cv2.waitKey(1000/refreshRate) >= 0:
+			break
+
+"""
+def trackLand():
 	print("starting object tracking")
 	time.sleep(1)
 	while True:
@@ -52,8 +77,7 @@ def trackLand():
 		print("x velocity: " + str(fw_velocity) + "  y velocity: " + str(sw_velocity))
 		if cv2.waitKey(100) >= 0:
 			break
-        
-
+"""
 
 #####################################################################################################
 ########################################Start of Code################################################
