@@ -129,7 +129,7 @@ def getContours(img,mask):
 	contours,hierarchy = cv2.findContours(mask,cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_NONE)
 	for cnt in contours:
 		area = cv2.contourArea(cnt)
-		if area>300:
+		if area>200:
             #removes noise by excluding small areas
 			cv2.drawContours(img, cnt, -1, (255,0,0), 3)
 			peri = cv2.arcLength(cnt,True)
@@ -141,7 +141,7 @@ def getContours(img,mask):
 def trackLand():
     fwTopSpeed = 0.5 #m/s
     swTopSpeed = 0.5 #m/s
-    vertSpeed = 0.3 #m/s
+    vertSpeed = 0.0 #m/s
     refreshRate = 10 #Hz
 
     print("setting yaw")
@@ -183,8 +183,8 @@ vehicle.airspeed = 5
 point1 = LocationGlobalRelative(28.6107822,-81.2098002,10)
 
 arm()
-takeoff(10)
-move_to_pos(point1)
+takeoff(8)
+#move_to_pos(point1)
 trackLand()
 
 print("end of script")
