@@ -123,7 +123,7 @@ def findColor(img,White):
     #slaps a beautiful blue circle onto the detected object
 	return x,y,img
 
-def getContours(img):
+def getContours(img,mask):
     #inputs a masked image from findColor and maps its contours
 	x,y,w,h = 320,220,0,0
 	contours,hierarchy = cv2.findContours(img,cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_NONE)
