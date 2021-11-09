@@ -139,9 +139,9 @@ def getContours(img,mask):
 	return x+w//2,y+h//2,img
 
 def trackLand():
-    fwTopSpeed = 1.0 #m/s
-    swTopSpeed = 1.0 #m/s
-    vertSpeed = 0.0 #m/s
+    fwTopSpeed = 0.8 #m/s
+    swTopSpeed = 0.8 #m/s
+    vertSpeed = 0.3 #m/s
     refreshRate = 10 #Hz
 
     print("setting yaw")
@@ -167,6 +167,7 @@ def trackLand():
         if vehicle.location.global_relative_frame.alt<=2:
             #safe landing when approaching ground
             print("close to ground, preparing to land")
+            send_ned_velocity(0,0,vertSpeed,1/refreshRate)
             vehicle.mode = VehicleMode("Land")
             break
 
@@ -183,7 +184,7 @@ vehicle.airspeed = 5
 point1 = LocationGlobalRelative(28.6107822,-81.2098002,10)
 
 arm()
-takeoff(5)
+takeoff(20)
 #move_to_pos(point1)
 trackLand()
 
