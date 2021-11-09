@@ -139,8 +139,8 @@ def getContours(img,mask):
 	return x+w//2,y+h//2,img
 
 def trackLand():
-    fwTopSpeed = 0.8 #m/s
-    swTopSpeed = 0.8 #m/s
+    fwTopSpeed = 0.5 #m/s
+    swTopSpeed = 0.5 #m/s
     vertSpeed = 0.3 #m/s
     refreshRate = 10 #Hz
 
@@ -168,7 +168,7 @@ def trackLand():
             #safe landing when approaching ground
             print("close to ground, preparing to land")
             send_ned_velocity(0,0,vertSpeed,1/refreshRate)
-            vehicle.mode = VehicleMode("Land")
+            vehicle.mode = VehicleMode("LAND")
             break
 
 
