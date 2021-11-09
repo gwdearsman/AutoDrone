@@ -129,7 +129,7 @@ def getContours(img,mask):
 	contours,hierarchy = cv2.findContours(mask,cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_NONE)
 	for cnt in contours:
 		area = cv2.contourArea(cnt)
-		if area>200:
+		if area>100:
             #removes noise by excluding small areas
 			cv2.drawContours(img, cnt, -1, (255,0,0), 3)
 			peri = cv2.arcLength(cnt,True)
@@ -139,8 +139,8 @@ def getContours(img,mask):
 	return x+w//2,y+h//2,img
 
 def trackLand():
-    fwTopSpeed = 0.5 #m/s
-    swTopSpeed = 0.5 #m/s
+    fwTopSpeed = 1.0 #m/s
+    swTopSpeed = 1.0 #m/s
     vertSpeed = 0.0 #m/s
     refreshRate = 10 #Hz
 
@@ -161,8 +161,8 @@ def trackLand():
         y_rel = 220-y
         print("x location: " + str(x_rel) + "  y location: " + str(y_rel))
         #converts pixel offset to velocity settings
-        sw_velocity = x_rel/(320/fwTopSpeed)
-        fw_velocity = y_rel/(220/swTopSpeed)
+        sw_velocity = x_rel/(320/swTopSpeed)
+        fw_velocity = y_rel/(220/fwTopSpeed)
         send_ned_velocity(fw_velocity,sw_velocity,vertSpeed,1/refreshRate)
         if vehicle.location.global_relative_frame.alt<=2:
             #safe landing when approaching ground
@@ -183,7 +183,7 @@ vehicle.airspeed = 5
 point1 = LocationGlobalRelative(28.6107822,-81.2098002,10)
 
 arm()
-takeoff(8)
+takeoff(5)
 #move_to_pos(point1)
 trackLand()
 
