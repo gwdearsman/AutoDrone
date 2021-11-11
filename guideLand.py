@@ -198,6 +198,7 @@ vehicle.airspeed = 5
 #points to travel to
 point1 = LocationGlobalRelative(28.6107822,-81.2098002,10)
 
+time.sleep(1)
 condition_servo(1,1000)
 print("servo activated")
 arm()
