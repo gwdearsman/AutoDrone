@@ -104,6 +104,19 @@ def condition_yaw(heading, relative=False):
     # send command to vehicle
     vehicle.send_mavlink(msg)
 
+def condition_servo(servo_num, pwm_value):
+    msg = vehicle.message_factory.command_long_encode(
+        0, 0,    # target_system, target_component
+        mavutil.mavlink.MAV_CMD_DO_SET_SERVO, #command
+        0, #confirmation
+        servo_num,    # param 1, SERVO number
+        pwm_value,          # param 2, PWM 1000-2000
+        0,          # param 3, direction -1 ccw, 1 cw
+        0, # param 4, relative offset 1, absolute angle 0
+        0, 0, 0)    # param 5 ~ 7 not used
+        # send command to vehicle
+    vehicle.send_mavlink(msg)
+
 #####################################################################################################
 ########################################Start of OpenCV################################################
 #####################################################################################################
