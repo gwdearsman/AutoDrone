@@ -183,7 +183,7 @@ def trackLand():
             #safe landing when approaching ground
             print("close to ground, preparing to drop off")
             send_ned_velocity(0,0,vertSpeed,1/refreshRate)
-            condition_servo(1,2000)
+            condition_servo(9,2000)
             time.sleep(2)
             vehicle.mode = VehicleMode("RTL")
             break
@@ -201,11 +201,11 @@ vehicle.airspeed = 5
 point1 = LocationGlobalRelative(28.6107822,-81.2098002,10)
 
 time.sleep(1)
-condition_servo(9,1900)
+condition_servo(9,1000)
 print("servo activated")
 arm()
 takeoff(5)
-#move_to_pos(point1)
+move_to_pos(point1)
 trackLand()
 
 print("end of script")
