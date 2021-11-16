@@ -144,6 +144,7 @@ def getContours(img,mask):
 		area = cv2.contourArea(cnt)
 		if area>100:
             #removes noise by excluding small areas
+			print("Area of Target: " + str())
 			cv2.drawContours(img, cnt, -1, (255,0,0), 3)
 			peri = cv2.arcLength(cnt,True)
 			approx = cv2.approxPolyDP(cnt,0.02*peri,True)
@@ -173,6 +174,7 @@ def trackLand():
         x_rel = x-320
         y_rel = 220-y
         print("x location: " + str(x_rel) + "  y location: " + str(y_rel))
+        print("Altitude: " + str(vehicle.location.global_relative_frame.alt))
         #converts pixel offset to velocity settings
         sw_velocity = x_rel/(320/swTopSpeed)
         fw_velocity = y_rel/(220/fwTopSpeed)
