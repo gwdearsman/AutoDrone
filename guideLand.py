@@ -201,7 +201,7 @@ vehicle.airspeed = 5
 point1 = LocationGlobalRelative(28.6107822,-81.2098002,10)
 
 time.sleep(1)
-condition_servo(9,1000)
+condition_servo(9,1900)
 print("servo activated")
 arm()
 takeoff(5)
