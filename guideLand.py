@@ -198,7 +198,7 @@ vehicle = connectMyCopter()
 vehicle.airspeed = 5
 
 #points to travel to
-point1 = LocationGlobalRelative(28.6107822,-81.2098002,10)
+point1 = LocationGlobalRelative(28.6105938,-81.2099399,10)
 
 time.sleep(1)
 condition_servo(9,1000)
