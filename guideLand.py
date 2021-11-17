@@ -155,7 +155,7 @@ def getContours(img,mask):
 def trackLand():
     fwTopSpeed = 0.3 #m/s
     swTopSpeed = 0.3 #m/s
-    vertSpeed = 0.2 #m/s
+    vertSpeed = 0.4 #m/s
     refreshRate = 10 #Hz
 
     print("setting yaw")
@@ -182,7 +182,7 @@ def trackLand():
         if vehicle.location.global_relative_frame.alt<=2:
             #safe landing when approaching ground
             print("close to ground, preparing to drop off")
-            send_ned_velocity(0,0,vertSpeed,1/refreshRate)
+            send_ned_velocity(0,0,0,1/refreshRate)
             condition_servo(9,2000)
             time.sleep(2)
             vehicle.mode = VehicleMode("RTL")
@@ -198,13 +198,13 @@ vehicle = connectMyCopter()
 vehicle.airspeed = 5
 
 #points to travel to
-point1 = LocationGlobalRelative(28.6105938,-81.2099399,10)
+point1 = LocationGlobalRelative(28.6105938,-81.2099399,7)
 
 time.sleep(1)
 condition_servo(9,1000)
 print("servo activated")
 arm()
-takeoff(5)
+takeoff(10)
 move_to_pos(point1)
 trackLand()
 
