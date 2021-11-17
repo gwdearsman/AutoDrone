@@ -153,9 +153,9 @@ def getContours(img,mask):
 	return x+w//2,y+h//2,img
 
 def trackLand():
-    fwTopSpeed = 0.5 #m/s
-    swTopSpeed = 0.5 #m/s
-    vertSpeed = 0.1 #m/s
+    fwTopSpeed = 0.3 #m/s
+    swTopSpeed = 0.3 #m/s
+    vertSpeed = 0.2 #m/s
     refreshRate = 10 #Hz
 
     print("setting yaw")
