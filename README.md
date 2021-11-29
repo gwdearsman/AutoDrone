@@ -90,4 +90,7 @@ To enter WorkSpace:
 source ~/.profile   
 workon cv
   
+crontab startup script:
+crontab -e
+on last line : @reboot bash /home/pi/bash startup
 
