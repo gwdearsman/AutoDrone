@@ -5,7 +5,7 @@ process = subprocess.Popen(["python3","outputTest.py"], stdin = subprocess.PIPE,
 print(process.stdout.read())
 process.wait()
 print("Completed Process 1!")
-process = subprocess.Popen(["python3","guideLand","--connect","/dev/serial0"], stdin = subprocess.PIPE, stdout = subprocess.PIPE, stderr = subprocess.PIPE, text = True)
+process = subprocess.Popen(["python3","guideLand.py","--connect","/dev/serial0"], stdin = subprocess.PIPE, stdout = subprocess.PIPE, stderr = subprocess.PIPE, text = True)
 print(process.stdout.read())
 process.wait()
 print("Completed Script!")
