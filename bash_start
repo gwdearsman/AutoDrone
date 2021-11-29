@@ -1,0 +1,7 @@
+#!/bin/bash
+/bin/sleep 5 &&
+source /home/pi/.profile
+workon cv
+cd /home/pi/AutoDrone
+python3 codeSelector.py
+

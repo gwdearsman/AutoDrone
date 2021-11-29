@@ -1,1 +1,4167 @@
 
+WARNING:dronekit:Link timeout, no heartbeat in last 5 seconds
+CRITICAL:autopilot:PreArm: Waiting for 3D fix
+CRITICAL:autopilot:PreArm: Waiting for 3D fix
+CRITICAL:autopilot:PreArm: Waiting for 3D fix
+CRITICAL:autopilot:PreArm: Waiting for 3D fix
+CRITICAL:autopilot:PreArm: Waiting for 3D fix
+CRITICAL:autopilot:PreArm: Waiting for 3D fix
+CRITICAL:autopilot:PreArm: Waiting for 3D fix
+CRITICAL:autopilot:PreArm: Waiting for 3D fix
+CRITICAL:autopilot:PreArm: Waiting for 3D fix
+CRITICAL:autopilot:PreArm: Waiting for 3D fix
+WARNING:dronekit:Link timeout, no heartbeat in last 5 seconds
+servo activated
+Waiting for drone to arm
+Vehicle is now armed.
+Props are now spinning
+Taking off!
+Reached target altitude
+moving to next location
+setting yaw
+yaw set
+starting object tracking
+Area of Target: 
+Area of Target: 
+x location: -317  y location: -122
+Altitude: 9.808
+Area of Target: 
+x location: -314  y location: -228
+Altitude: 9.794
+Area of Target: 
+x location: -317  y location: -129
+Altitude: 9.78
+x location: 0  y location: 0
+Altitude: 9.78
+x location: 0  y location: 0
+Altitude: 9.732
+Area of Target: 
+x location: 143  y location: 39
+Altitude: 9.732
+Area of Target: 
+x location: 144  y location: 28
+Altitude: 9.707
+x location: 0  y location: 0
+Altitude: 9.707
+Area of Target: 
+x location: 79  y location: -2
+Altitude: 9.682
+Area of Target: 
+x location: 109  y location: 56
+Altitude: 9.631
+x location: 0  y location: 0
+Altitude: 9.631
+x location: 0  y location: 0
+Altitude: 9.536
+Area of Target: 
+x location: 204  y location: 150
+Altitude: 9.536
+Area of Target: 
+x location: 196  y location: 127
+Altitude: 9.427
+Area of Target: 
+x location: 187  y location: 123
+Altitude: 9.427
+Area of Target: 
+x location: 191  y location: 143
+Altitude: 9.316
+Area of Target: 
+x location: 177  y location: 148
+Altitude: 9.246
+x location: 0  y location: 0
+Altitude: 9.246
+Area of Target: 
+x location: 192  y location: 193
+Altitude: 9.175
+Area of Target: 
+x location: 199  y location: 214
+Altitude: 9.175
+x location: 0  y location: 0
+Altitude: 9.11
+x location: 0  y location: 0
+Altitude: 9.11
+Area of Target: 
+x location: 174  y location: 183
+Altitude: 9.049
+x location: 0  y location: 0
+Altitude: 9.0
+Area of Target: 
+x location: 172  y location: 185
+Altitude: 9.0
+Area of Target: 
+x location: 178  y location: 187
+Altitude: 8.966
+x location: 0  y location: 0
+Altitude: 8.966
+x location: 0  y location: 0
+Altitude: 8.948
+Area of Target: 
+x location: 175  y location: 61
+Altitude: 8.948
+Area of Target: 
+x location: 179  y location: 62
+Altitude: 8.929
+x location: 0  y location: 0
+Altitude: 8.91
+x location: 0  y location: 0
+Altitude: 8.91
+x location: 0  y location: 0
+Altitude: 8.873
+Area of Target: 
+x location: 160  y location: 24
+Altitude: 8.873
+Area of Target: 
+x location: 180  y location: 30
+Altitude: 8.83
+Area of Target: 
+x location: 190  y location: 41
+Altitude: 8.83
+x location: 0  y location: 0
+Altitude: 8.776
+Area of Target: 
+x location: 142  y location: 6
+Altitude: 8.731
+x location: 0  y location: 0
+Altitude: 8.731
+Area of Target: 
+x location: 163  y location: -7
+Altitude: 8.663
+Area of Target: 
+x location: 179  y location: -29
+Altitude: 8.663
+Area of Target: 
+x location: 172  y location: -34
+Altitude: 8.603
+Area of Target: 
+x location: 155  y location: -42
+Altitude: 8.603
+Area of Target: 
+x location: 156  y location: -34
+Altitude: 8.555
+x location: 0  y location: 0
+Altitude: 8.501
+Area of Target: 
+x location: 172  y location: -30
+Altitude: 8.501
+Area of Target: 
+x location: 173  y location: -34
+Altitude: 8.447
+Area of Target: 
+x location: 176  y location: -23
+Altitude: 8.447
+Area of Target: 
+x location: 182  y location: -16
+Altitude: 8.399
+Area of Target: 
+x location: 173  y location: -7
+Altitude: 8.399
+Area of Target: 
+x location: 168  y location: 11
+Altitude: 8.348
+Area of Target: 
+x location: 177  y location: 9
+Altitude: 8.286
+Area of Target: 
+x location: 180  y location: 13
+Altitude: 8.286
+x location: 0  y location: 0
+Altitude: 8.226
+x location: 0  y location: 0
+Altitude: 8.226
+Area of Target: 
+x location: 131  y location: 29
+Altitude: 8.179
+Area of Target: 
+x location: 131  y location: 22
+Altitude: 8.179
+Area of Target: 
+x location: 120  y location: 24
+Altitude: 8.13
+Area of Target: 
+x location: 119  y location: 23
+Altitude: 8.065
+Area of Target: 
+x location: 80  y location: 17
+Altitude: 8.065
+x location: 0  y location: 0
+Altitude: 7.997
+Area of Target: 
+x location: 99  y location: 21
+Altitude: 7.997
+Area of Target: 
+x location: 90  y location: 37
+Altitude: 7.943
+Area of Target: 
+x location: 82  y location: 43
+Altitude: 7.89
+x location: 0  y location: 0
+Altitude: 7.89
+Area of Target: 
+x location: 44  y location: 40
+Altitude: 7.838
+x location: 0  y location: 0
+Altitude: 7.838
+Area of Target: 
+x location: 73  y location: 17
+Altitude: 7.767
+Area of Target: 
+x location: 97  y location: 24
+Altitude: 7.767
+Area of Target: 
+x location: 83  y location: 21
+Altitude: 7.699
+x location: 0  y location: 0
+Altitude: 7.635
+Area of Target: 
+x location: 74  y location: -4
+Altitude: 7.635
+x location: 0  y location: 0
+Altitude: 7.575
+Area of Target: 
+x location: 98  y location: -14
+Altitude: 7.575
+Area of Target: 
+x location: 98  y location: -9
+Altitude: 7.527
+Area of Target: 
+x location: 84  y location: -1
+Altitude: 7.527
+Area of Target: 
+x location: 73  y location: -2
+Altitude: 7.508
+Area of Target: 
+x location: 72  y location: 1
+Altitude: 7.488
+x location: 0  y location: 0
+Altitude: 7.488
+x location: 0  y location: 0
+Altitude: 7.445
+Area of Target: 
+x location: 73  y location: 5
+Altitude: 7.445
+Area of Target: 
+x location: 78  y location: 3
+Altitude: 7.374
+Area of Target: 
+x location: 64  y location: 9
+Altitude: 7.306
+Area of Target: 
+x location: 71  y location: -8
+Altitude: 7.306
+Area of Target: 
+x location: 54  y location: 13
+Altitude: 7.24
+Area of Target: 
+x location: 57  y location: -6
+Altitude: 7.24
+Area of Target: 
+x location: 70  y location: -7
+Altitude: 7.192
+Area of Target: 
+x location: 58  y location: -10
+Altitude: 7.192
+Area of Target: 
+x location: 52  y location: -7
+Altitude: 7.151
+Area of Target: 
+x location: 33  y location: -18
+Altitude: 7.094
+Area of Target: 
+x location: 30  y location: -21
+Altitude: 7.094
+Area of Target: 
+x location: 28  y location: -22
+Altitude: 7.037
+x location: 0  y location: 0
+Altitude: 7.037
+Area of Target: 
+x location: 23  y location: -24
+Altitude: 6.981
+Area of Target: 
+x location: 23  y location: 1
+Altitude: 6.981
+Area of Target: 
+x location: 21  y location: 29
+Altitude: 6.945
+Area of Target: 
+x location: 10  y location: 52
+Altitude: 6.914
+Area of Target: 
+x location: 25  y location: 80
+Altitude: 6.914
+Area of Target: 
+x location: 32  y location: 92
+Altitude: 6.885
+Area of Target: 
+x location: 45  y location: 98
+Altitude: 6.885
+Area of Target: 
+x location: 57  y location: 96
+Altitude: 6.845
+Area of Target: 
+x location: 58  y location: 69
+Altitude: 6.801
+Area of Target: 
+x location: 74  y location: 53
+Altitude: 6.801
+Area of Target: 
+x location: 87  y location: 22
+Altitude: 6.76
+Area of Target: 
+x location: 85  y location: 5
+Altitude: 6.76
+Area of Target: 
+x location: 108  y location: -2
+Altitude: 6.708
+Area of Target: 
+x location: 97  y location: -30
+Altitude: 6.667
+Area of Target: 
+x location: 117  y location: -49
+Altitude: 6.667
+Area of Target: 
+x location: 122  y location: -73
+Altitude: 6.614
+Area of Target: 
+x location: 117  y location: -94
+Altitude: 6.614
+Area of Target: 
+x location: 108  y location: -104
+Altitude: 6.579
+Area of Target: 
+x location: 94  y location: -102
+Altitude: 6.575
+Area of Target: 
+x location: 90  y location: -99
+Altitude: 6.575
+Area of Target: 
+x location: 69  y location: -104
+Altitude: 6.556
+Area of Target: 
+x location: 65  y location: -109
+Altitude: 6.556
+Area of Target: 
+x location: 44  y location: -99
+Altitude: 6.522
+Area of Target: 
+x location: 26  y location: -88
+Altitude: 6.522
+Area of Target: 
+x location: 14  y location: -73
+Altitude: 6.482
+Area of Target: 
+x location: 15  y location: -57
+Altitude: 6.433
+Area of Target: 
+x location: 20  y location: -49
+Altitude: 6.433
+Area of Target: 
+x location: 28  y location: -34
+Altitude: 6.373
+Area of Target: 
+x location: 13  y location: -30
+Altitude: 6.373
+Area of Target: 
+x location: 12  y location: -8
+Altitude: 6.304
+Area of Target: 
+x location: -2  y location: -8
+Altitude: 6.251
+Area of Target: 
+x location: 10  y location: 18
+Altitude: 6.251
+Area of Target: 
+x location: 0  y location: 38
+Altitude: 6.219
+Area of Target: 
+x location: -8  y location: 44
+Altitude: 6.219
+Area of Target: 
+x location: -4  y location: 40
+Altitude: 6.158
+Area of Target: 
+x location: -23  y location: 39
+Altitude: 6.158
+Area of Target: 
+x location: -30  y location: 46
+Altitude: 6.093
+Area of Target: 
+x location: -29  y location: 53
+Altitude: 6.028
+Area of Target: 
+x location: -24  y location: 58
+Altitude: 6.028
+Area of Target: 
+x location: -20  y location: 54
+Altitude: 5.972
+Area of Target: 
+x location: -3  y location: 51
+Altitude: 5.972
+Area of Target: 
+x location: 12  y location: 48
+Altitude: 5.906
+Area of Target: 
+x location: 9  y location: 59
+Altitude: 5.852
+Area of Target: 
+x location: 25  y location: 61
+Altitude: 5.852
+Area of Target: 
+x location: 29  y location: 76
+Altitude: 5.796
+Area of Target: 
+x location: 25  y location: 83
+Altitude: 5.796
+Area of Target: 
+x location: 42  y location: 66
+Altitude: 5.743
+Area of Target: 
+x location: 41  y location: 61
+Altitude: 5.743
+Area of Target: 
+x location: 23  y location: 52
+Altitude: 5.685
+Area of Target: 
+x location: 43  y location: 25
+Altitude: 5.622
+Area of Target: 
+x location: 47  y location: 19
+Altitude: 5.622
+Area of Target: 
+x location: 49  y location: 19
+Altitude: 5.595
+Area of Target: 
+x location: 57  y location: 15
+Altitude: 5.595
+Area of Target: 
+x location: 51  y location: 13
+Altitude: 5.565
+Area of Target: 
+x location: 34  y location: 13
+Altitude: 5.517
+Area of Target: 
+x location: 24  y location: 10
+Altitude: 5.517
+Area of Target: 
+x location: 24  y location: 11
+Altitude: 5.459
+Area of Target: 
+x location: 16  y location: 16
+Altitude: 5.459
+Area of Target: 
+x location: 20  y location: 20
+Altitude: 5.401
+Area of Target: 
+x location: 10  y location: 36
+Altitude: 5.401
+Area of Target: 
+x location: -5  y location: 34
+Altitude: 5.335
+Area of Target: 
+x location: -12  y location: 19
+Altitude: 5.252
+Area of Target: 
+x location: -21  y location: 32
+Altitude: 5.252
+Area of Target: 
+x location: -17  y location: 36
+Altitude: 5.139
+Area of Target: 
+x location: -14  y location: 50
+Altitude: 5.139
+Area of Target: 
+x location: 1  y location: 54
+Altitude: 5.021
+Area of Target: 
+x location: 15  y location: 74
+Altitude: 5.021
+Area of Target: 
+x location: 32  y location: 77
+Altitude: 4.923
+Area of Target: 
+x location: 37  y location: 104
+Altitude: 4.853
+Area of Target: 
+x location: 34  y location: 106
+Altitude: 4.853
+Area of Target: 
+x location: 21  y location: 94
+Altitude: 4.816
+Area of Target: 
+x location: 14  y location: 100
+Altitude: 4.816
+Area of Target: 
+x location: 8  y location: 87
+Altitude: 4.812
+Area of Target: 
+x location: 34  y location: 73
+Altitude: 4.813
+Area of Target: 
+x location: 41  y location: 61
+Altitude: 4.813
+Area of Target: 
+x location: 52  y location: 35
+Altitude: 4.817
+Area of Target: 
+x location: 44  y location: 11
+Altitude: 4.817
+Area of Target: 
+x location: 28  y location: -9
+Altitude: 4.8
+Area of Target: 
+x location: 36  y location: -22
+Altitude: 4.8
+Area of Target: 
+x location: 17  y location: -48
+Altitude: 4.783
+Area of Target: 
+x location: 23  y location: -55
+Altitude: 4.764
+Area of Target: 
+x location: 26  y location: -83
+Altitude: 4.764
+Area of Target: 
+x location: 36  y location: -102
+Altitude: 4.751
+Area of Target: 
+x location: 25  y location: -96
+Altitude: 4.751
+Area of Target: 
+x location: 19  y location: -93
+Altitude: 4.741
+Area of Target: 
+x location: 17  y location: -96
+Altitude: 4.741
+Area of Target: 
+x location: 9  y location: -92
+Altitude: 4.715
+Area of Target: 
+x location: -11  y location: -111
+Altitude: 4.681
+Area of Target: 
+x location: -19  y location: -102
+Altitude: 4.681
+Area of Target: 
+x location: -21  y location: -110
+Altitude: 4.648
+Area of Target: 
+x location: -38  y location: -103
+Altitude: 4.648
+Area of Target: 
+x location: -57  y location: -92
+Altitude: 4.594
+Area of Target: 
+x location: -66  y location: -98
+Altitude: 4.594
+Area of Target: 
+x location: -73  y location: -88
+Altitude: 4.536
+Area of Target: 
+x location: -67  y location: -71
+Altitude: 4.476
+Area of Target: 
+x location: -70  y location: -61
+Altitude: 4.476
+Area of Target: 
+x location: -67  y location: -44
+Altitude: 4.424
+Area of Target: 
+x location: -76  y location: -25
+Altitude: 4.424
+Area of Target: 
+x location: -75  y location: -15
+Altitude: 4.376
+Area of Target: 
+x location: -71  y location: -3
+Altitude: 4.321
+Area of Target: 
+x location: -64  y location: -6
+Altitude: 4.321
+Area of Target: 
+x location: -47  y location: 11
+Altitude: 4.254
+Area of Target: 
+x location: -47  y location: 22
+Altitude: 4.254
+Area of Target: 
+x location: -20  y location: 36
+Altitude: 4.2
+Area of Target: 
+x location: -3  y location: 48
+Altitude: 4.137
+Area of Target: 
+x location: 12  y location: 40
+Altitude: 4.137
+Area of Target: 
+x location: 24  y location: 37
+Altitude: 4.077
+Area of Target: 
+x location: 30  y location: 33
+Altitude: 4.077
+Area of Target: 
+x location: 37  y location: 12
+Altitude: 4.045
+Area of Target: 
+x location: 39  y location: 9
+Altitude: 4.045
+Area of Target: 
+x location: 39  y location: -19
+Altitude: 3.982
+Area of Target: 
+x location: 25  y location: -43
+Altitude: 3.931
+Area of Target: 
+x location: 28  y location: -79
+Altitude: 3.931
+Area of Target: 
+x location: 30  y location: -82
+Altitude: 3.912
+Area of Target: 
+x location: 41  y location: -72
+Altitude: 3.912
+Area of Target: 
+x location: 39  y location: -58
+Altitude: 3.888
+Area of Target: 
+x location: 45  y location: -46
+Altitude: 3.888
+Area of Target: 
+x location: 48  y location: -47
+Altitude: 3.843
+Area of Target: 
+x location: 43  y location: -50
+Altitude: 3.791
+Area of Target: 
+x location: 49  y location: -45
+Altitude: 3.791
+Area of Target: 
+x location: 48  y location: -40
+Altitude: 3.722
+Area of Target: 
+x location: 31  y location: -34
+Altitude: 3.722
+Area of Target: 
+x location: 31  y location: -62
+Altitude: 3.676
+Area of Target: 
+x location: 25  y location: -45
+Altitude: 3.658
+Area of Target: 
+x location: 10  y location: -52
+Altitude: 3.658
+Area of Target: 
+x location: -16  y location: -40
+Altitude: 3.601
+Area of Target: 
+x location: -14  y location: -53
+Altitude: 3.601
+Area of Target: 
+x location: -16  y location: -62
+Altitude: 3.511
+Area of Target: 
+x location: -23  y location: -74
+Altitude: 3.511
+Area of Target: 
+x location: -36  y location: -70
+Altitude: 3.391
+Area of Target: 
+x location: -46  y location: -45
+Altitude: 3.305
+Area of Target: 
+x location: -56  y location: -42
+Altitude: 3.305
+Area of Target: 
+x location: -57  y location: -44
+Altitude: 3.233
+Area of Target: 
+x location: -55  y location: -46
+Altitude: 3.233
+Area of Target: 
+x location: -55  y location: -47
+Altitude: 3.172
+Area of Target: 
+x location: -64  y location: -63
+Altitude: 3.13
+Area of Target: 
+x location: -61  y location: -68
+Altitude: 3.13
+Area of Target: 
+x location: -68  y location: -89
+Altitude: 3.09
+Area of Target: 
+x location: -49  y location: -98
+Altitude: 3.09
+Area of Target: 
+x location: -27  y location: -106
+Altitude: 3.056
+Area of Target: 
+x location: -26  y location: -111
+Altitude: 3.046
+Area of Target: 
+x location: -19  y location: -123
+Altitude: 3.046
+Area of Target: 
+x location: -15  y location: -123
+Altitude: 3.053
+Area of Target: 
+x location: -8  y location: -111
+Altitude: 3.053
+Area of Target: 
+x location: -5  y location: -129
+Altitude: 3.029
+Area of Target: 
+x location: -7  y location: -113
+Altitude: 3.029
+Area of Target: 
+x location: -8  y location: -113
+Altitude: 2.975
+Area of Target: 
+x location: -15  y location: -86
+Altitude: 2.904
+Area of Target: 
+x location: -17  y location: -63
+Altitude: 2.904
+Area of Target: 
+x location: -32  y location: -43
+Altitude: 2.829
+Area of Target: 
+x location: -45  y location: -45
+Altitude: 2.829
+Area of Target: 
+x location: -56  y location: -28
+Altitude: 2.733
+Area of Target: 
+x location: -58  y location: -18
+Altitude: 2.659
+Area of Target: 
+x location: -86  y location: -11
+Altitude: 2.659
+Area of Target: 
+x location: -97  y location: 4
+Altitude: 2.597
+Area of Target: 
+x location: -105  y location: 24
+Altitude: 2.597
+Area of Target: 
+x location: -101  y location: 33
+Altitude: 2.546
+Area of Target: 
+x location: -95  y location: 58
+Altitude: 2.546
+Area of Target: 
+x location: -95  y location: 51
+Altitude: 2.483
+Area of Target: 
+x location: -100  y location: 59
+Altitude: 2.42
+Area of Target: 
+x location: -101  y location: 69
+Altitude: 2.42
+Area of Target: 
+x location: -109  y location: 60
+Altitude: 2.361
+Area of Target: 
+x location: -124  y location: 52
+Altitude: 2.361
+Area of Target: 
+x location: -134  y location: 38
+Altitude: 2.302
+Area of Target: 
+x location: -149  y location: 20
+Altitude: 2.254
+Area of Target: 
+x location: -166  y location: 22
+Altitude: 2.254
+Area of Target: 
+Area of Target: 
+x location: -177  y location: 33
+Altitude: 2.212
+Area of Target: 
+x location: -190  y location: 7
+Altitude: 2.212
+Area of Target: 
+x location: -211  y location: -5
+Altitude: 2.172
+Area of Target: 
+x location: -228  y location: -27
+Altitude: 2.135
+Area of Target: 
+x location: -232  y location: -23
+Altitude: 2.135
+Area of Target: 
+x location: -244  y location: -8
+Altitude: 2.082
+Area of Target: 
+x location: -245  y location: -25
+Altitude: 2.082
+Area of Target: 
+x location: -257  y location: -28
+Altitude: 2.029
+Area of Target: 
+x location: -258  y location: -46
+Altitude: 1.978
+close to ground, preparing to drop off
+end of script
+WARNING:dronekit:Link timeout, no heartbeat in last 5 seconds
+servo activated
+Waiting for drone to arm
+Vehicle is now armed.
+Props are now spinning
+Taking off!
+Reached target altitude
+moving to next location
+setting yaw
+yaw set
+starting object tracking
+Area of Target: 
+x location: -28  y location: -195
+Altitude: 10.047
+Area of Target: 
+x location: -28  y location: -194
+Altitude: 10.039
+Area of Target: 
+x location: -26  y location: -195
+Altitude: 10.039
+Area of Target: 
+x location: -26  y location: -196
+Altitude: 9.998
+x location: 0  y location: 0
+Altitude: 9.998
+x location: 0  y location: 0
+Altitude: 9.95
+x location: 0  y location: 0
+Altitude: 9.906
+Area of Target: 
+x location: 11  y location: -68
+Altitude: 9.906
+x location: 0  y location: 0
+Altitude: 9.861
+x location: 0  y location: 0
+Altitude: 9.861
+x location: 0  y location: 0
+Altitude: 9.826
+x location: 0  y location: 0
+Altitude: 9.826
+x location: 0  y location: 0
+Altitude: 9.801
+x location: 0  y location: 0
+Altitude: 9.779
+x location: 0  y location: 0
+Altitude: 9.779
+x location: 0  y location: 0
+Altitude: 9.738
+x location: 0  y location: 0
+Altitude: 9.738
+x location: 0  y location: 0
+Altitude: 9.684
+Area of Target: 
+x location: -12  y location: -83
+Altitude: 9.684
+Area of Target: 
+x location: -13  y location: -79
+Altitude: 9.627
+x location: 0  y location: 0
+Altitude: 9.572
+x location: 0  y location: 0
+Altitude: 9.572
+x location: 0  y location: 0
+Altitude: 9.521
+Area of Target: 
+x location: 2  y location: -94
+Altitude: 9.521
+x location: 0  y location: 0
+Altitude: 9.455
+x location: 0  y location: 0
+Altitude: 9.455
+x location: 0  y location: 0
+Altitude: 9.399
+x location: 0  y location: 0
+Altitude: 9.321
+x location: 0  y location: 0
+Altitude: 9.321
+x location: 0  y location: 0
+Altitude: 9.252
+x location: 0  y location: 0
+Altitude: 9.252
+x location: 0  y location: 0
+Altitude: 9.183
+Area of Target: 
+x location: -40  y location: -18
+Altitude: 9.183
+x location: 0  y location: 0
+Altitude: 9.11
+x location: 0  y location: 0
+Altitude: 9.054
+x location: 0  y location: 0
+Altitude: 9.054
+x location: 0  y location: 0
+Altitude: 9.012
+Area of Target: 
+x location: -62  y location: -25
+Altitude: 9.012
+x location: 0  y location: 0
+Altitude: 8.976
+Area of Target: 
+x location: -60  y location: -31
+Altitude: 8.976
+x location: 0  y location: 0
+Altitude: 8.941
+Area of Target: 
+x location: -55  y location: -36
+Altitude: 8.941
+Area of Target: 
+x location: -55  y location: -35
+Altitude: 8.881
+x location: 0  y location: 0
+Altitude: 8.818
+x location: 0  y location: 0
+Altitude: 8.818
+x location: 0  y location: 0
+Altitude: 8.754
+x location: 0  y location: 0
+Altitude: 8.754
+x location: 0  y location: 0
+Altitude: 8.691
+Area of Target: 
+x location: -6  y location: -45
+Altitude: 8.691
+Area of Target: 
+x location: 8  y location: -37
+Altitude: 8.616
+x location: 0  y location: 0
+Altitude: 8.616
+Area of Target: 
+x location: 3  y location: -37
+Altitude: 8.549
+x location: 0  y location: 0
+Altitude: 8.498
+Area of Target: 
+x location: 1  y location: -35
+Altitude: 8.498
+Area of Target: 
+x location: 13  y location: -47
+Altitude: 8.465
+x location: 0  y location: 0
+Altitude: 8.465
+Area of Target: 
+x location: -18  y location: -43
+Altitude: 8.447
+Area of Target: 
+x location: -20  y location: -53
+Altitude: 8.447
+x location: 0  y location: 0
+Altitude: 8.407
+x location: 0  y location: 0
+Altitude: 8.407
+x location: 0  y location: 0
+Altitude: 8.372
+Area of Target: 
+x location: -26  y location: -56
+Altitude: 8.346
+x location: 0  y location: 0
+Altitude: 8.346
+Area of Target: 
+x location: -35  y location: -65
+Altitude: 8.322
+x location: 0  y location: 0
+Altitude: 8.322
+Area of Target: 
+x location: -30  y location: -46
+Altitude: 8.283
+x location: 0  y location: 0
+Altitude: 8.283
+Area of Target: 
+x location: -27  y location: -60
+Altitude: 8.233
+Area of Target: 
+x location: -38  y location: -52
+Altitude: 8.18
+Area of Target: 
+x location: -39  y location: -45
+Altitude: 8.18
+Area of Target: 
+x location: -33  y location: -37
+Altitude: 8.136
+Area of Target: 
+x location: -45  y location: -45
+Altitude: 8.136
+Area of Target: 
+x location: -37  y location: -34
+Altitude: 8.092
+Area of Target: 
+x location: -45  y location: -48
+Altitude: 8.092
+Area of Target: 
+x location: -47  y location: -41
+Altitude: 8.032
+Area of Target: 
+x location: -44  y location: -36
+Altitude: 8.032
+x location: 0  y location: 0
+Altitude: 7.972
+x location: 0  y location: 0
+Altitude: 7.927
+Area of Target: 
+x location: -42  y location: -30
+Altitude: 7.927
+x location: 0  y location: 0
+Altitude: 7.866
+x location: 0  y location: 0
+Altitude: 7.866
+x location: 0  y location: 0
+Altitude: 7.811
+Area of Target: 
+x location: -60  y location: -11
+Altitude: 7.811
+Area of Target: 
+x location: -66  y location: -27
+Altitude: 7.757
+x location: 0  y location: 0
+Altitude: 7.672
+Area of Target: 
+x location: -81  y location: -32
+Altitude: 7.672
+Area of Target: 
+x location: -85  y location: -36
+Altitude: 7.602
+Area of Target: 
+x location: -82  y location: -32
+Altitude: 7.602
+Area of Target: 
+x location: -94  y location: -28
+Altitude: 7.561
+Area of Target: 
+x location: -95  y location: -21
+Altitude: 7.561
+x location: 0  y location: 0
+Altitude: 7.567
+Area of Target: 
+x location: -73  y location: -9
+Altitude: 7.567
+Area of Target: 
+x location: -62  y location: -11
+Altitude: 7.561
+x location: 0  y location: 0
+Altitude: 7.541
+Area of Target: 
+x location: -55  y location: -1
+Altitude: 7.541
+Area of Target: 
+x location: -53  y location: 1
+Altitude: 7.506
+x location: 0  y location: 0
+Altitude: 7.506
+Area of Target: 
+x location: -46  y location: 5
+Altitude: 7.449
+x location: 0  y location: 0
+Altitude: 7.449
+x location: 0  y location: 0
+Altitude: 7.38
+Area of Target: 
+x location: -42  y location: -3
+Altitude: 7.303
+Area of Target: 
+x location: -41  y location: -11
+Altitude: 7.303
+Area of Target: 
+x location: -44  y location: -5
+Altitude: 7.227
+x location: 0  y location: 0
+Altitude: 7.227
+Area of Target: 
+x location: -29  y location: -8
+Altitude: 7.157
+Area of Target: 
+x location: -27  y location: -13
+Altitude: 7.157
+x location: 0  y location: 0
+Altitude: 7.107
+Area of Target: 
+x location: -38  y location: -16
+Altitude: 7.058
+Area of Target: 
+x location: -40  y location: -14
+Altitude: 7.058
+Area of Target: 
+x location: -41  y location: -27
+Altitude: 7.01
+Area of Target: 
+x location: -49  y location: -35
+Altitude: 7.01
+Area of Target: 
+x location: -41  y location: -44
+Altitude: 6.967
+Area of Target: 
+x location: -57  y location: -43
+Altitude: 6.967
+Area of Target: 
+x location: -60  y location: -46
+Altitude: 6.911
+Area of Target: 
+x location: -57  y location: -52
+Altitude: 6.858
+x location: 0  y location: 0
+Altitude: 6.858
+Area of Target: 
+x location: -67  y location: -65
+Altitude: 6.797
+Area of Target: 
+x location: -79  y location: -65
+Altitude: 6.797
+Area of Target: 
+x location: -70  y location: -65
+Altitude: 6.749
+Area of Target: 
+x location: -82  y location: -60
+Altitude: 6.749
+Area of Target: 
+x location: -72  y location: -61
+Altitude: 6.692
+Area of Target: 
+x location: -82  y location: -55
+Altitude: 6.639
+Area of Target: 
+x location: -102  y location: -62
+Altitude: 6.639
+Area of Target: 
+x location: -99  y location: -62
+Altitude: 6.592
+Area of Target: 
+x location: -98  y location: -63
+Altitude: 6.592
+Area of Target: 
+x location: -78  y location: -57
+Altitude: 6.546
+Area of Target: 
+x location: -73  y location: -66
+Altitude: 6.546
+Area of Target: 
+x location: -74  y location: -57
+Altitude: 6.512
+Area of Target: 
+x location: -57  y location: -54
+Altitude: 6.465
+Area of Target: 
+x location: -55  y location: -57
+Altitude: 6.465
+Area of Target: 
+x location: -58  y location: -46
+Altitude: 6.413
+Area of Target: 
+x location: -34  y location: -39
+Altitude: 6.413
+Area of Target: 
+x location: -33  y location: -43
+Altitude: 6.372
+Area of Target: 
+x location: -32  y location: -38
+Altitude: 6.372
+Area of Target: 
+x location: -55  y location: -30
+Altitude: 6.323
+Area of Target: 
+x location: -55  y location: -29
+Altitude: 6.323
+Area of Target: 
+x location: -58  y location: -36
+Altitude: 6.269
+Area of Target: 
+x location: -54  y location: -32
+Altitude: 6.208
+Area of Target: 
+x location: -50  y location: -28
+Altitude: 6.208
+Area of Target: 
+x location: -57  y location: -32
+Altitude: 6.161
+Area of Target: 
+x location: -63  y location: -28
+Altitude: 6.161
+Area of Target: 
+x location: -69  y location: -27
+Altitude: 6.123
+Area of Target: 
+x location: -58  y location: -19
+Altitude: 6.123
+Area of Target: 
+x location: -63  y location: -23
+Altitude: 6.081
+Area of Target: 
+x location: -71  y location: -23
+Altitude: 6.022
+Area of Target: 
+x location: -74  y location: -12
+Altitude: 6.022
+Area of Target: 
+x location: -75  y location: -9
+Altitude: 5.984
+Area of Target: 
+x location: -67  y location: -6
+Altitude: 5.984
+Area of Target: 
+x location: -65  y location: -13
+Altitude: 5.939
+Area of Target: 
+x location: -64  y location: 0
+Altitude: 5.939
+Area of Target: 
+x location: -70  y location: 1
+Altitude: 5.888
+Area of Target: 
+x location: -65  y location: -3
+Altitude: 5.838
+Area of Target: 
+x location: -50  y location: 0
+Altitude: 5.838
+Area of Target: 
+x location: -49  y location: 2
+Altitude: 5.791
+Area of Target: 
+x location: -42  y location: -6
+Altitude: 5.791
+Area of Target: 
+x location: -42  y location: -5
+Altitude: 5.751
+Area of Target: 
+x location: -29  y location: -7
+Altitude: 5.751
+Area of Target: 
+x location: -31  y location: -6
+Altitude: 5.711
+Area of Target: 
+x location: -36  y location: -10
+Altitude: 5.679
+Area of Target: 
+x location: -35  y location: -9
+Altitude: 5.679
+Area of Target: 
+x location: -30  y location: -7
+Altitude: 5.635
+Area of Target: 
+x location: -42  y location: -18
+Altitude: 5.635
+Area of Target: 
+x location: -46  y location: -27
+Altitude: 5.566
+Area of Target: 
+x location: -53  y location: -29
+Altitude: 5.566
+Area of Target: 
+x location: -64  y location: -32
+Altitude: 5.482
+Area of Target: 
+x location: -69  y location: -42
+Altitude: 5.415
+Area of Target: 
+x location: -64  y location: -43
+Altitude: 5.415
+Area of Target: 
+x location: -53  y location: -55
+Altitude: 5.391
+Area of Target: 
+x location: -70  y location: -52
+Altitude: 5.391
+Area of Target: 
+x location: -71  y location: -50
+Altitude: 5.384
+Area of Target: 
+x location: -81  y location: -45
+Altitude: 5.384
+Area of Target: 
+x location: -84  y location: -41
+Altitude: 5.368
+Area of Target: 
+x location: -78  y location: -35
+Altitude: 5.347
+Area of Target: 
+x location: -70  y location: -22
+Altitude: 5.347
+Area of Target: 
+x location: -66  y location: -22
+Altitude: 5.313
+Area of Target: 
+x location: -55  y location: -18
+Altitude: 5.313
+Area of Target: 
+x location: -59  y location: -11
+Altitude: 5.259
+Area of Target: 
+x location: -67  y location: -7
+Altitude: 5.259
+Area of Target: 
+x location: -60  y location: -2
+Altitude: 5.194
+Area of Target: 
+x location: -56  y location: -1
+Altitude: 5.144
+Area of Target: 
+x location: -42  y location: 4
+Altitude: 5.144
+Area of Target: 
+x location: -29  y location: -1
+Altitude: 5.092
+Area of Target: 
+x location: -26  y location: 15
+Altitude: 5.092
+Area of Target: 
+x location: -27  y location: 14
+Altitude: 5.039
+Area of Target: 
+x location: -39  y location: 25
+Altitude: 5.039
+Area of Target: 
+x location: -30  y location: 30
+Altitude: 4.969
+Area of Target: 
+x location: -29  y location: 27
+Altitude: 4.969
+Area of Target: 
+x location: -25  y location: 27
+Altitude: 4.871
+Area of Target: 
+x location: -25  y location: 27
+Altitude: 4.796
+Area of Target: 
+x location: -19  y location: 31
+Altitude: 4.796
+Area of Target: 
+x location: -20  y location: 36
+Altitude: 4.718
+Area of Target: 
+x location: -19  y location: 34
+Altitude: 4.718
+Area of Target: 
+x location: -13  y location: 31
+Altitude: 4.66
+Area of Target: 
+x location: -9  y location: 40
+Altitude: 4.66
+Area of Target: 
+x location: -5  y location: 43
+Altitude: 4.6
+Area of Target: 
+x location: -5  y location: 26
+Altitude: 4.543
+Area of Target: 
+x location: 0  y location: 31
+Altitude: 4.543
+Area of Target: 
+x location: 6  y location: 23
+Altitude: 4.496
+Area of Target: 
+x location: -8  y location: 24
+Altitude: 4.496
+Area of Target: 
+x location: -11  y location: 16
+Altitude: 4.446
+Area of Target: 
+x location: -21  y location: 13
+Altitude: 4.446
+Area of Target: 
+x location: -18  y location: -6
+Altitude: 4.387
+Area of Target: 
+x location: -14  y location: -7
+Altitude: 4.387
+Area of Target: 
+x location: -19  y location: -25
+Altitude: 4.346
+Area of Target: 
+x location: -13  y location: -30
+Altitude: 4.302
+Area of Target: 
+x location: -17  y location: -36
+Altitude: 4.302
+Area of Target: 
+x location: -11  y location: -41
+Altitude: 4.265
+Area of Target: 
+x location: -10  y location: -59
+Altitude: 4.265
+Area of Target: 
+x location: -7  y location: -66
+Altitude: 4.228
+Area of Target: 
+x location: 6  y location: -71
+Altitude: 4.228
+Area of Target: 
+x location: 5  y location: -71
+Altitude: 4.191
+Area of Target: 
+x location: 5  y location: -66
+Altitude: 4.148
+Area of Target: 
+x location: 16  y location: -55
+Altitude: 4.148
+Area of Target: 
+x location: 12  y location: -61
+Altitude: 4.092
+Area of Target: 
+x location: 19  y location: -57
+Altitude: 4.092
+Area of Target: 
+x location: 14  y location: -53
+Altitude: 4.038
+Area of Target: 
+x location: 10  y location: -41
+Altitude: 4.038
+Area of Target: 
+x location: 1  y location: -28
+Altitude: 3.99
+Area of Target: 
+x location: 2  y location: -30
+Altitude: 3.951
+Area of Target: 
+x location: 3  y location: -30
+Altitude: 3.951
+Area of Target: 
+x location: -1  y location: -26
+Altitude: 3.897
+Area of Target: 
+x location: -9  y location: -28
+Altitude: 3.897
+Area of Target: 
+x location: -17  y location: -31
+Altitude: 3.839
+Area of Target: 
+x location: -22  y location: -27
+Altitude: 3.839
+Area of Target: 
+x location: -13  y location: -31
+Altitude: 3.801
+Area of Target: 
+x location: -13  y location: -21
+Altitude: 3.771
+Area of Target: 
+x location: -12  y location: -28
+Altitude: 3.771
+Area of Target: 
+x location: -21  y location: -25
+Altitude: 3.723
+Area of Target: 
+x location: -38  y location: -20
+Altitude: 3.723
+Area of Target: 
+x location: -31  y location: -21
+Altitude: 3.675
+Area of Target: 
+x location: -35  y location: -18
+Altitude: 3.675
+Area of Target: 
+x location: -37  y location: -13
+Altitude: 3.614
+Area of Target: 
+x location: -28  y location: -11
+Altitude: 3.555
+Area of Target: 
+x location: -36  y location: -11
+Altitude: 3.555
+Area of Target: 
+x location: -40  y location: -10
+Altitude: 3.51
+Area of Target: 
+x location: -33  y location: -18
+Altitude: 3.51
+Area of Target: 
+x location: -37  y location: -23
+Altitude: 3.472
+Area of Target: 
+x location: -35  y location: -34
+Altitude: 3.434
+Area of Target: 
+x location: -30  y location: -29
+Altitude: 3.434
+Area of Target: 
+x location: -32  y location: -35
+Altitude: 3.351
+Area of Target: 
+x location: -28  y location: -28
+Altitude: 3.351
+Area of Target: 
+x location: -19  y location: -27
+Altitude: 3.231
+Area of Target: 
+x location: -11  y location: -29
+Altitude: 3.231
+Area of Target: 
+x location: 2  y location: -17
+Altitude: 3.101
+Area of Target: 
+x location: 12  y location: -21
+Altitude: 3.01
+Area of Target: 
+x location: 12  y location: -24
+Altitude: 3.01
+Area of Target: 
+x location: 7  y location: -20
+Altitude: 2.978
+Area of Target: 
+x location: 3  y location: -14
+Altitude: 2.978
+Area of Target: 
+x location: 5  y location: -8
+Altitude: 2.975
+Area of Target: 
+x location: 4  y location: -13
+Altitude: 2.972
+Area of Target: 
+x location: -3  y location: -20
+Altitude: 2.972
+Area of Target: 
+x location: -14  y location: -28
+Altitude: 2.973
+Area of Target: 
+x location: -30  y location: -32
+Altitude: 2.973
+Area of Target: 
+x location: -28  y location: -35
+Altitude: 2.999
+Area of Target: 
+x location: -40  y location: -37
+Altitude: 2.999
+Area of Target: 
+x location: -41  y location: -42
+Altitude: 3.026
+Area of Target: 
+x location: -34  y location: -46
+Altitude: 3.03
+Area of Target: 
+x location: -41  y location: -42
+Altitude: 3.03
+Area of Target: 
+x location: -42  y location: -58
+Altitude: 2.99
+Area of Target: 
+x location: -41  y location: -55
+Altitude: 2.99
+Area of Target: 
+x location: -41  y location: -51
+Altitude: 2.919
+Area of Target: 
+x location: -35  y location: -53
+Altitude: 2.919
+Area of Target: 
+x location: -35  y location: -53
+Altitude: 2.846
+Area of Target: 
+x location: -24  y location: -58
+Altitude: 2.759
+Area of Target: 
+x location: -15  y location: -58
+Altitude: 2.759
+Area of Target: 
+x location: -9  y location: -55
+Altitude: 2.697
+Area of Target: 
+x location: 9  y location: -67
+Altitude: 2.697
+Area of Target: 
+x location: 15  y location: -72
+Altitude: 2.638
+Area of Target: 
+x location: 18  y location: -81
+Altitude: 2.638
+Area of Target: 
+x location: 13  y location: -88
+Altitude: 2.569
+Area of Target: 
+x location: 20  y location: -69
+Altitude: 2.515
+Area of Target: 
+x location: 21  y location: -60
+Altitude: 2.515
+Area of Target: 
+x location: 28  y location: -69
+Altitude: 2.461
+Area of Target: 
+x location: 35  y location: -72
+Altitude: 2.461
+Area of Target: 
+x location: 36  y location: -86
+Altitude: 2.415
+Area of Target: 
+x location: 22  y location: -78
+Altitude: 2.415
+Area of Target: 
+x location: 15  y location: -72
+Altitude: 2.352
+Area of Target: 
+x location: 10  y location: -65
+Altitude: 2.297
+Area of Target: 
+x location: -9  y location: -68
+Altitude: 2.297
+Area of Target: 
+x location: -13  y location: -51
+Altitude: 2.235
+Area of Target: 
+x location: -25  y location: -50
+Altitude: 2.235
+Area of Target: 
+x location: -30  y location: -41
+Altitude: 2.186
+Area of Target: 
+x location: -40  y location: -22
+Altitude: 2.186
+Area of Target: 
+x location: -40  y location: -10
+Altitude: 2.134
+Area of Target: 
+x location: -47  y location: -9
+Altitude: 2.083
+Area of Target: 
+x location: -49  y location: 13
+Altitude: 2.083
+Area of Target: 
+x location: -46  y location: 19
+Altitude: 2.04
+Area of Target: 
+x location: -36  y location: 27
+Altitude: 2.04
+Area of Target: 
+x location: -14  y location: 37
+Altitude: 2.001
+Area of Target: 
+x location: 4  y location: 50
+Altitude: 2.001
+close to ground, preparing to drop off
+end of script
+WARNING:dronekit:Link timeout, no heartbeat in last 5 seconds
+WARNING:dronekit:Link timeout, no heartbeat in last 5 seconds
+CRITICAL:autopilot:PreArm: Need 3D Fix
+servo activated
+Waiting for drone to arm
+Waiting for drone to arm
+Vehicle is now armed.
+Props are now spinning
+Taking off!
+Reached target altitude
+moving to next location
+setting yaw
+yaw set
+starting object tracking
+Area of Target: 
+x location: 66  y location: -111
+Altitude: 6.783
+x location: 0  y location: 0
+Altitude: 6.783
+x location: 0  y location: 0
+Altitude: 6.778
+x location: 0  y location: 0
+Altitude: 6.778
+Area of Target: 
+x location: -1  y location: -35
+Altitude: 6.667
+Area of Target: 
+x location: 0  y location: -45
+Altitude: 6.667
+Area of Target: 
+x location: 7  y location: -70
+Altitude: 6.545
+Area of Target: 
+x location: 8  y location: -52
+Altitude: 6.449
+Area of Target: 
+x location: -3  y location: -44
+Altitude: 6.449
+Area of Target: 
+x location: 0  y location: -53
+Altitude: 6.375
+Area of Target: 
+x location: -4  y location: -64
+Altitude: 6.375
+Area of Target: 
+x location: -2  y location: -73
+Altitude: 6.284
+Area of Target: 
+x location: -1  y location: -73
+Altitude: 6.284
+Area of Target: 
+x location: -9  y location: -69
+Altitude: 6.184
+Area of Target: 
+x location: -7  y location: -70
+Altitude: 6.039
+Area of Target: 
+x location: -6  y location: -74
+Altitude: 6.039
+Area of Target: 
+x location: -1  y location: -77
+Altitude: 5.882
+Area of Target: 
+x location: 2  y location: -85
+Altitude: 5.882
+Area of Target: 
+x location: 6  y location: -94
+Altitude: 5.712
+Area of Target: 
+x location: 6  y location: -93
+Altitude: 5.712
+Area of Target: 
+x location: 2  y location: -89
+Altitude: 5.558
+Area of Target: 
+x location: 13  y location: -89
+Altitude: 5.437
+Area of Target: 
+x location: 10  y location: -89
+Altitude: 5.437
+Area of Target: 
+x location: 14  y location: -86
+Altitude: 5.332
+Area of Target: 
+x location: 11  y location: -92
+Altitude: 5.332
+Area of Target: 
+x location: 6  y location: -86
+Altitude: 5.249
+Area of Target: 
+x location: 7  y location: -86
+Altitude: 5.195
+Area of Target: 
+x location: 13  y location: -83
+Altitude: 5.195
+Area of Target: 
+x location: 8  y location: -85
+Altitude: 5.155
+Area of Target: 
+x location: -5  y location: -87
+Altitude: 5.155
+Area of Target: 
+x location: -16  y location: -91
+Altitude: 5.109
+Area of Target: 
+x location: -21  y location: -94
+Altitude: 5.05
+Area of Target: 
+x location: -23  y location: -89
+Altitude: 5.05
+Area of Target: 
+x location: -28  y location: -76
+Altitude: 4.961
+Area of Target: 
+x location: -38  y location: -80
+Altitude: 4.961
+Area of Target: 
+x location: -45  y location: -78
+Altitude: 4.845
+Area of Target: 
+x location: -47  y location: -88
+Altitude: 4.845
+Area of Target: 
+x location: -44  y location: -80
+Altitude: 4.733
+Area of Target: 
+x location: -30  y location: -72
+Altitude: 4.639
+Area of Target: 
+x location: -24  y location: -66
+Altitude: 4.639
+Area of Target: 
+x location: -23  y location: -60
+Altitude: 4.538
+Area of Target: 
+x location: -19  y location: -63
+Altitude: 4.538
+Area of Target: 
+x location: -14  y location: -61
+Altitude: 4.419
+Area of Target: 
+x location: -11  y location: -56
+Altitude: 4.274
+Area of Target: 
+x location: -8  y location: -34
+Altitude: 4.274
+Area of Target: 
+x location: -8  y location: -25
+Altitude: 4.125
+Area of Target: 
+x location: -5  y location: -16
+Altitude: 4.125
+Area of Target: 
+x location: 1  y location: -10
+Altitude: 4.029
+Area of Target: 
+x location: -4  y location: 12
+Altitude: 3.945
+Area of Target: 
+x location: -6  y location: 10
+Altitude: 3.945
+Area of Target: 
+x location: -17  y location: 18
+Altitude: 3.861
+Area of Target: 
+x location: -18  y location: 17
+Altitude: 3.861
+Area of Target: 
+x location: -11  y location: 21
+Altitude: 3.774
+Area of Target: 
+x location: -14  y location: 23
+Altitude: 3.673
+Area of Target: 
+x location: -15  y location: 26
+Altitude: 3.673
+Area of Target: 
+x location: -10  y location: 35
+Altitude: 3.587
+Area of Target: 
+x location: -11  y location: 28
+Altitude: 3.587
+Area of Target: 
+x location: -1  y location: 24
+Altitude: 3.495
+Area of Target: 
+x location: -5  y location: 26
+Altitude: 3.495
+Area of Target: 
+x location: -7  y location: 18
+Altitude: 3.399
+Area of Target: 
+x location: 1  y location: 11
+Altitude: 3.322
+Area of Target: 
+x location: -3  y location: 7
+Altitude: 3.322
+Area of Target: 
+x location: 4  y location: 5
+Altitude: 3.219
+Area of Target: 
+x location: 8  y location: 5
+Altitude: 3.219
+Area of Target: 
+x location: 2  y location: 10
+Altitude: 3.103
+Area of Target: 
+x location: -7  y location: 7
+Altitude: 3.004
+Area of Target: 
+x location: -22  y location: 7
+Altitude: 3.004
+Area of Target: 
+x location: -26  y location: 7
+Altitude: 2.924
+Area of Target: 
+x location: -33  y location: 13
+Altitude: 2.838
+Area of Target: 
+x location: -43  y location: 13
+Altitude: 2.838
+Area of Target: 
+x location: -52  y location: 9
+Altitude: 2.714
+Area of Target: 
+x location: -57  y location: -5
+Altitude: 2.714
+Area of Target: 
+x location: -58  y location: -6
+Altitude: 2.584
+Area of Target: 
+x location: -58  y location: -1
+Altitude: 2.469
+Area of Target: 
+x location: -53  y location: 7
+Altitude: 2.469
+Area of Target: 
+x location: -44  y location: 17
+Altitude: 2.407
+Area of Target: 
+x location: -43  y location: 17
+Altitude: 2.407
+Area of Target: 
+x location: -44  y location: 24
+Altitude: 2.344
+Area of Target: 
+x location: -47  y location: 27
+Altitude: 2.253
+Area of Target: 
+x location: -37  y location: 26
+Altitude: 2.253
+Area of Target: 
+x location: -32  y location: 34
+Altitude: 2.133
+Area of Target: 
+x location: -24  y location: 41
+Altitude: 2.133
+close to ground, preparing to drop off
+end of script
+WARNING:dronekit:Link timeout, no heartbeat in last 5 seconds
+CRITICAL:autopilot:PreArm: Need 3D Fix
+servo activated
+Waiting for drone to arm
+Waiting for drone to arm
+Vehicle is now armed.
+Props are now spinning
+Taking off!
+Reached target altitude
+moving to next location
+setting yaw
+yaw set
+starting object tracking
+Area of Target: 
+x location: -83  y location: 44
+Altitude: 6.851
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: 28  y location: 115
+Altitude: 6.851
+Area of Target: 
+x location: -72  y location: 50
+Altitude: 6.793
+Area of Target: 
+x location: -72  y location: 49
+Altitude: 6.669
+Area of Target: 
+x location: -302  y location: -49
+Altitude: 6.669
+Area of Target: 
+x location: -314  y location: -40
+Altitude: 6.568
+Area of Target: 
+x location: -315  y location: -38
+Altitude: 6.568
+Area of Target: 
+x location: -306  y location: -17
+Altitude: 6.493
+Area of Target: 
+x location: -314  y location: -24
+Altitude: 6.493
+x location: 0  y location: 0
+Altitude: 6.426
+x location: 0  y location: 0
+Altitude: 6.368
+x location: 0  y location: 0
+Altitude: 6.368
+x location: 0  y location: 0
+Altitude: 6.306
+Area of Target: 
+x location: -312  y location: -64
+Altitude: 6.306
+Area of Target: 
+x location: -299  y location: -63
+Altitude: 6.247
+Area of Target: 
+x location: -251  y location: -66
+Altitude: 6.126
+Area of Target: 
+x location: -225  y location: -67
+Altitude: 6.126
+Area of Target: 
+x location: -232  y location: -62
+Altitude: 5.939
+Area of Target: 
+x location: -236  y location: -52
+Altitude: 5.939
+Area of Target: 
+x location: -290  y location: -52
+Altitude: 5.754
+Area of Target: 
+x location: -306  y location: -55
+Altitude: 5.754
+Area of Target: 
+x location: -294  y location: -54
+Altitude: 5.612
+Area of Target: 
+x location: -268  y location: -42
+Altitude: 5.476
+Area of Target: 
+x location: -257  y location: -36
+Altitude: 5.476
+Area of Target: 
+x location: -247  y location: -20
+Altitude: 5.366
+Area of Target: 
+x location: -254  y location: -11
+Altitude: 5.366
+Area of Target: 
+x location: -262  y location: -9
+Altitude: 5.277
+Area of Target: 
+x location: -250  y location: -4
+Altitude: 5.277
+Area of Target: 
+x location: -245  y location: 10
+Altitude: 5.171
+Area of Target: 
+x location: -235  y location: 19
+Altitude: 5.063
+Area of Target: 
+x location: -225  y location: 25
+Altitude: 5.063
+Area of Target: 
+x location: -226  y location: 30
+Altitude: 4.96
+Area of Target: 
+x location: -234  y location: 32
+Altitude: 4.96
+Area of Target: 
+x location: -244  y location: 27
+Altitude: 4.869
+Area of Target: 
+x location: -247  y location: 11
+Altitude: 4.869
+Area of Target: 
+x location: -242  y location: 2
+Altitude: 4.784
+Area of Target: 
+x location: -244  y location: -4
+Altitude: 4.705
+Area of Target: 
+x location: -247  y location: -9
+Altitude: 4.705
+Area of Target: 
+x location: -252  y location: -12
+Altitude: 4.629
+Area of Target: 
+x location: -260  y location: -22
+Altitude: 4.629
+Area of Target: 
+x location: -261  y location: -29
+Altitude: 4.547
+Area of Target: 
+x location: -257  y location: -37
+Altitude: 4.441
+Area of Target: 
+x location: -257  y location: -39
+Altitude: 4.441
+Area of Target: 
+x location: -272  y location: -41
+Altitude: 4.33
+Area of Target: 
+x location: -266  y location: -51
+Altitude: 4.33
+Area of Target: 
+x location: -274  y location: -56
+Altitude: 4.233
+Area of Target: 
+x location: -266  y location: -59
+Altitude: 4.233
+Area of Target: 
+x location: -259  y location: -54
+Altitude: 4.137
+Area of Target: 
+x location: -258  y location: -47
+Altitude: 4.054
+Area of Target: 
+x location: -250  y location: -42
+Altitude: 4.054
+Area of Target: 
+x location: -236  y location: -46
+Altitude: 3.959
+Area of Target: 
+x location: -228  y location: -43
+Altitude: 3.959
+Area of Target: 
+x location: -222  y location: -43
+Altitude: 3.854
+Area of Target: 
+x location: -229  y location: -39
+Altitude: 3.854
+Area of Target: 
+x location: -220  y location: -35
+Altitude: 3.755
+Area of Target: 
+x location: -208  y location: -44
+Altitude: 3.664
+Area of Target: 
+x location: -193  y location: -40
+Altitude: 3.664
+Area of Target: 
+x location: -191  y location: -36
+Altitude: 3.576
+Area of Target: 
+x location: -194  y location: -36
+Altitude: 3.576
+Area of Target: 
+x location: -202  y location: -26
+Altitude: 3.475
+Area of Target: 
+x location: -213  y location: -18
+Altitude: 3.39
+Area of Target: 
+x location: -208  y location: -17
+Altitude: 3.39
+Area of Target: 
+x location: -208  y location: -9
+Altitude: 3.288
+Area of Target: 
+x location: -216  y location: -1
+Altitude: 3.288
+Area of Target: 
+x location: -224  y location: 4
+Altitude: 3.203
+Area of Target: 
+x location: -230  y location: 7
+Altitude: 3.203
+Area of Target: 
+x location: -234  y location: 13
+Altitude: 3.118
+Area of Target: 
+x location: -236  y location: 28
+Altitude: 3.025
+Area of Target: 
+x location: -244  y location: 26
+Altitude: 3.025
+Area of Target: 
+x location: -246  y location: 29
+Altitude: 2.94
+Area of Target: 
+x location: -253  y location: 30
+Altitude: 2.94
+Area of Target: 
+x location: -254  y location: 29
+Altitude: 2.833
+Area of Target: 
+x location: -235  y location: 43
+Altitude: 2.833
+Area of Target: 
+x location: -232  y location: 41
+Altitude: 2.697
+Area of Target: 
+x location: -223  y location: 34
+Altitude: 2.579
+Area of Target: 
+x location: -217  y location: 18
+Altitude: 2.579
+Area of Target: 
+x location: -199  y location: -1
+Altitude: 2.501
+Area of Target: 
+x location: -183  y location: -6
+Altitude: 2.501
+Area of Target: 
+x location: -164  y location: -13
+Altitude: 2.413
+Area of Target: 
+x location: -157  y location: -43
+Altitude: 2.295
+Area of Target: 
+x location: -145  y location: -51
+Altitude: 2.295
+Area of Target: 
+x location: -147  y location: -82
+Altitude: 2.178
+Area of Target: 
+x location: -139  y location: -97
+Altitude: 2.178
+Area of Target: 
+x location: -125  y location: -101
+Altitude: 2.075
+Area of Target: 
+x location: -119  y location: -109
+Altitude: 1.945
+close to ground, preparing to drop off
+end of script
+servo activated
+Waiting for drone to arm
+Vehicle is now armed.
+Props are now spinning
+Taking off!
+Reached target altitude
+moving to next location
+setting yaw
+yaw set
+starting object tracking
+x location: 0  y location: 0
+Altitude: 6.892
+x location: 0  y location: 0
+Altitude: 6.895
+x location: 0  y location: 0
+Altitude: 6.895
+x location: 0  y location: 0
+Altitude: 6.82
+x location: 0  y location: 0
+Altitude: 6.82
+x location: 0  y location: 0
+Altitude: 6.694
+x location: 0  y location: 0
+Altitude: 6.694
+x location: 0  y location: 0
+Altitude: 6.599
+x location: 0  y location: 0
+Altitude: 6.544
+x location: 0  y location: 0
+Altitude: 6.544
+x location: 0  y location: 0
+Altitude: 6.486
+x location: 0  y location: 0
+Altitude: 6.486
+x location: 0  y location: 0
+Altitude: 6.41
+x location: 0  y location: 0
+Altitude: 6.41
+x location: 0  y location: 0
+Altitude: 6.327
+x location: 0  y location: 0
+Altitude: 6.205
+x location: 0  y location: 0
+Altitude: 6.205
+x location: 0  y location: 0
+Altitude: 6.066
+x location: 0  y location: 0
+Altitude: 6.066
+x location: 0  y location: 0
+Altitude: 5.934
+x location: 0  y location: 0
+Altitude: 5.934
+x location: 0  y location: 0
+Altitude: 5.803
+x location: 0  y location: 0
+Altitude: 5.658
+x location: 0  y location: 0
+Altitude: 5.658
+x location: 0  y location: 0
+Altitude: 5.545
+x location: 0  y location: 0
+Altitude: 5.545
+x location: 0  y location: 0
+Altitude: 5.431
+x location: 0  y location: 0
+Altitude: 5.431
+x location: 0  y location: 0
+Altitude: 5.309
+x location: 0  y location: 0
+Altitude: 5.172
+x location: 0  y location: 0
+Altitude: 5.172
+x location: 0  y location: 0
+Altitude: 5.077
+x location: 0  y location: 0
+Altitude: 5.077
+x location: 0  y location: 0
+Altitude: 4.998
+x location: 0  y location: 0
+Altitude: 4.998
+x location: 0  y location: 0
+Altitude: 4.908
+x location: 0  y location: 0
+Altitude: 4.813
+x location: 0  y location: 0
+Altitude: 4.813
+x location: 0  y location: 0
+Altitude: 4.728
+x location: 0  y location: 0
+Altitude: 4.728
+x location: 0  y location: 0
+Altitude: 4.622
+x location: 0  y location: 0
+Altitude: 4.51
+x location: 0  y location: 0
+Altitude: 4.51
+x location: 0  y location: 0
+Altitude: 4.404
+x location: 0  y location: 0
+Altitude: 4.404
+x location: 0  y location: 0
+Altitude: 4.32
+x location: 0  y location: 0
+Altitude: 4.32
+x location: 0  y location: 0
+Altitude: 4.237
+x location: 0  y location: 0
+Altitude: 4.134
+x location: 0  y location: 0
+Altitude: 4.134
+x location: 0  y location: 0
+Altitude: 4.064
+x location: 0  y location: 0
+Altitude: 4.064
+x location: 0  y location: 0
+Altitude: 3.993
+x location: 0  y location: 0
+Altitude: 3.993
+x location: 0  y location: 0
+Altitude: 3.886
+x location: 0  y location: 0
+Altitude: 3.768
+x location: 0  y location: 0
+Altitude: 3.768
+x location: 0  y location: 0
+Altitude: 3.647
+Area of Target: 
+x location: -314  y location: -101
+Altitude: 3.647
+x location: 0  y location: 0
+Altitude: 3.539
+x location: 0  y location: 0
+Altitude: 3.539
+x location: 0  y location: 0
+Altitude: 3.446
+x location: 0  y location: 0
+Altitude: 3.369
+x location: 0  y location: 0
+Altitude: 3.369
+x location: 0  y location: 0
+Altitude: 3.268
+x location: 0  y location: 0
+Altitude: 3.268
+x location: 0  y location: 0
+Altitude: 3.154
+x location: 0  y location: 0
+Altitude: 3.154
+x location: 0  y location: 0
+Altitude: 3.021
+x location: 0  y location: 0
+Altitude: 2.896
+x location: 0  y location: 0
+Altitude: 2.896
+x location: 0  y location: 0
+Altitude: 2.79
+Area of Target: 
+Area of Target: 
+x location: 8  y location: 169
+Altitude: 2.79
+x location: 0  y location: 0
+Altitude: 2.705
+x location: 0  y location: 0
+Altitude: 2.705
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: 10  y location: 203
+Altitude: 2.608
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: 16  y location: 215
+Altitude: 2.505
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: 9  y location: 211
+Altitude: 2.505
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: -168  y location: 214
+Altitude: 2.424
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: -171  y location: 210
+Altitude: 2.424
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: -178  y location: 203
+Altitude: 2.329
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: -310  y location: 175
+Altitude: 2.22
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: 226  y location: 162
+Altitude: 2.22
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: 292  y location: 215
+Altitude: 2.13
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: 269  y location: 203
+Altitude: 2.031
+Area of Target: 
+x location: 256  y location: 42
+Altitude: 2.031
+close to ground, preparing to drop off
+end of script
+WARNING:dronekit:Link timeout, no heartbeat in last 5 seconds
+servo activated
+Waiting for drone to arm
+Vehicle is now armed.
+Props are now spinning
+Taking off!
+Reached target altitude
+moving to next location
+setting yaw
+yaw set
+starting object tracking
+Area of Target: 
+Area of Target: 
+x location: -272  y location: 133
+Altitude: 6.848
+Area of Target: 
+x location: -56  y location: 186
+Altitude: 6.861
+x location: 0  y location: 0
+Altitude: 6.861
+x location: 0  y location: 0
+Altitude: 6.813
+Area of Target: 
+x location: 22  y location: -39
+Altitude: 6.69
+Area of Target: 
+x location: 12  y location: -42
+Altitude: 6.69
+Area of Target: 
+x location: -3  y location: -37
+Altitude: 6.575
+Area of Target: 
+x location: -2  y location: -19
+Altitude: 6.575
+Area of Target: 
+x location: 7  y location: -51
+Altitude: 6.477
+Area of Target: 
+x location: 18  y location: -70
+Altitude: 6.477
+Area of Target: 
+x location: 14  y location: -78
+Altitude: 6.359
+Area of Target: 
+x location: 6  y location: -78
+Altitude: 6.249
+Area of Target: 
+x location: -3  y location: -84
+Altitude: 6.249
+Area of Target: 
+x location: -6  y location: -89
+Altitude: 6.144
+Area of Target: 
+x location: -2  y location: -95
+Altitude: 6.144
+Area of Target: 
+x location: 1  y location: -102
+Altitude: 6.056
+Area of Target: 
+x location: 6  y location: -98
+Altitude: 6.056
+Area of Target: 
+x location: 9  y location: -93
+Altitude: 5.972
+Area of Target: 
+x location: 9  y location: -88
+Altitude: 5.876
+Area of Target: 
+x location: 14  y location: -84
+Altitude: 5.876
+Area of Target: 
+x location: 18  y location: -83
+Altitude: 5.788
+Area of Target: 
+x location: 23  y location: -81
+Altitude: 5.788
+Area of Target: 
+x location: 23  y location: -81
+Altitude: 5.69
+Area of Target: 
+x location: 31  y location: -76
+Altitude: 5.6
+Area of Target: 
+x location: 29  y location: -72
+Altitude: 5.6
+Area of Target: 
+x location: 23  y location: -74
+Altitude: 5.504
+Area of Target: 
+x location: 26  y location: -63
+Altitude: 5.504
+Area of Target: 
+x location: 25  y location: -61
+Altitude: 5.408
+Area of Target: 
+x location: 19  y location: -61
+Altitude: 5.408
+Area of Target: 
+x location: 13  y location: -56
+Altitude: 5.293
+Area of Target: 
+x location: 13  y location: -39
+Altitude: 5.145
+Area of Target: 
+x location: 8  y location: -32
+Altitude: 5.145
+Area of Target: 
+x location: -2  y location: -21
+Altitude: 5.024
+Area of Target: 
+x location: 1  y location: -20
+Altitude: 5.024
+Area of Target: 
+x location: 0  y location: -18
+Altitude: 4.937
+Area of Target: 
+x location: -5  y location: -18
+Altitude: 4.937
+Area of Target: 
+x location: -1  y location: -21
+Altitude: 4.88
+Area of Target: 
+x location: 1  y location: -20
+Altitude: 4.827
+Area of Target: 
+x location: 0  y location: -20
+Altitude: 4.827
+Area of Target: 
+x location: 1  y location: -23
+Altitude: 4.746
+Area of Target: 
+x location: -1  y location: -20
+Altitude: 4.746
+Area of Target: 
+x location: -1  y location: -23
+Altitude: 4.662
+Area of Target: 
+x location: -1  y location: -26
+Altitude: 4.662
+Area of Target: 
+x location: -8  y location: -27
+Altitude: 4.584
+Area of Target: 
+x location: -13  y location: -35
+Altitude: 4.473
+Area of Target: 
+x location: -12  y location: -36
+Altitude: 4.473
+Area of Target: 
+x location: -11  y location: -35
+Altitude: 4.369
+Area of Target: 
+x location: -18  y location: -31
+Altitude: 4.369
+Area of Target: 
+x location: -20  y location: -28
+Altitude: 4.255
+Area of Target: 
+x location: -21  y location: -17
+Altitude: 4.255
+Area of Target: 
+x location: -22  y location: -8
+Altitude: 4.128
+Area of Target: 
+x location: -19  y location: -8
+Altitude: 3.992
+Area of Target: 
+x location: -16  y location: 1
+Altitude: 3.992
+Area of Target: 
+x location: -13  y location: 14
+Altitude: 3.875
+Area of Target: 
+x location: -14  y location: 19
+Altitude: 3.875
+Area of Target: 
+x location: -22  y location: 22
+Altitude: 3.745
+Area of Target: 
+x location: -34  y location: 23
+Altitude: 3.632
+Area of Target: 
+x location: -37  y location: 25
+Altitude: 3.632
+Area of Target: 
+x location: -41  y location: 28
+Altitude: 3.538
+Area of Target: 
+x location: -41  y location: 33
+Altitude: 3.538
+Area of Target: 
+x location: -51  y location: 38
+Altitude: 3.436
+Area of Target: 
+x location: -64  y location: 37
+Altitude: 3.436
+Area of Target: 
+x location: -80  y location: 35
+Altitude: 3.319
+Area of Target: 
+x location: -92  y location: 33
+Altitude: 3.219
+Area of Target: 
+x location: -95  y location: 26
+Altitude: 3.219
+Area of Target: 
+x location: -94  y location: 35
+Altitude: 3.119
+Area of Target: 
+x location: -96  y location: 40
+Altitude: 3.119
+Area of Target: 
+x location: -95  y location: 45
+Altitude: 3.034
+Area of Target: 
+x location: -92  y location: 48
+Altitude: 2.962
+Area of Target: 
+x location: -89  y location: 43
+Altitude: 2.962
+Area of Target: 
+x location: -95  y location: 36
+Altitude: 2.874
+Area of Target: 
+x location: -102  y location: 31
+Altitude: 2.874
+Area of Target: 
+x location: -104  y location: 18
+Altitude: 2.785
+Area of Target: 
+x location: -106  y location: 3
+Altitude: 2.664
+Area of Target: 
+x location: -99  y location: -2
+Altitude: 2.664
+Area of Target: 
+x location: -100  y location: -7
+Altitude: 2.553
+Area of Target: 
+x location: -98  y location: -7
+Altitude: 2.553
+Area of Target: 
+x location: -93  y location: -11
+Altitude: 2.468
+Area of Target: 
+x location: -84  y location: -11
+Altitude: 2.371
+Area of Target: 
+x location: -76  y location: -9
+Altitude: 2.371
+Area of Target: 
+x location: -68  y location: -14
+Altitude: 2.262
+Area of Target: 
+x location: -65  y location: -7
+Altitude: 2.262
+Area of Target: 
+x location: -60  y location: 0
+Altitude: 2.168
+Area of Target: 
+x location: -57  y location: 11
+Altitude: 2.082
+Area of Target: 
+x location: -52  y location: 13
+Altitude: 2.082
+close to ground, preparing to drop off
+end of script
+WARNING:dronekit:Link timeout, no heartbeat in last 5 seconds
+servo activated
+Waiting for drone to arm
+Vehicle is now armed.
+Props are now spinning
+Taking off!
+Reached target altitude
+moving to next location
+setting yaw
+yaw set
+starting object tracking
+Area of Target: 
+x location: -254  y location: -204
+Altitude: 6.947
+Area of Target: 
+x location: -243  y location: -217
+Altitude: 6.92
+x location: 0  y location: 0
+Altitude: 6.853
+x location: 0  y location: 0
+Altitude: 6.853
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: -300  y location: 202
+Altitude: 6.723
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: -299  y location: 195
+Altitude: 6.592
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: -298  y location: 196
+Altitude: 6.488
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: -300  y location: 196
+Altitude: 6.406
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: -298  y location: 198
+Altitude: 6.324
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: -297  y location: 214
+Altitude: 6.242
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: 63  y location: 206
+Altitude: 6.154
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: 10  y location: 190
+Altitude: 6.054
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: -303  y location: 212
+Altitude: 5.95
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: -307  y location: 200
+Altitude: 5.856
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: -300  y location: 187
+Altitude: 5.752
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: -289  y location: 188
+Altitude: 5.654
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: -308  y location: 199
+Altitude: 5.554
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: 269  y location: 146
+Altitude: 5.448
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: 235  y location: 140
+Altitude: 5.363
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: 275  y location: 216
+Altitude: 5.163
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: -294  y location: 208
+Altitude: 5.057
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: -135  y location: 211
+Altitude: 4.981
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: -304  y location: 208
+Altitude: 4.891
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: -297  y location: 149
+Altitude: 4.789
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: -312  y location: 206
+Altitude: 4.69
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: -197  y location: 195
+Altitude: 4.574
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: 300  y location: 201
+Altitude: 4.442
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: 297  y location: 203
+Altitude: 4.319
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: -29  y location: 214
+Altitude: 4.228
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: 18  y location: 202
+Altitude: 4.147
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: 36  y location: 212
+Altitude: 4.075
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: -284  y location: 214
+Altitude: 4.001
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: -250  y location: 207
+Altitude: 3.811
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: -298  y location: 212
+Altitude: 3.746
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: 59  y location: 210
+Altitude: 3.68
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: 40  y location: 207
+Altitude: 3.586
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: -189  y location: 213
+Altitude: 3.481
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: -304  y location: 213
+Altitude: 3.383
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: -285  y location: 213
+Altitude: 3.296
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: -306  y location: 214
+Altitude: 3.202
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: -303  y location: 188
+Altitude: 3.084
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: -287  y location: 183
+Altitude: 2.961
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: -303  y location: 195
+Altitude: 2.821
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: -312  y location: 203
+Altitude: 2.678
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: 109  y location: 208
+Altitude: 2.568
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: -102  y location: 207
+Altitude: 2.395
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: -303  y location: 193
+Altitude: 2.298
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+Area of Target: 
+x location: -297  y location: 193
+Altitude: 2.137
+close to ground, preparing to drop off
+end of script
+CRITICAL:autopilot:PreArm: Waiting for 3D fix
+CRITICAL:autopilot:PreArm: GPS numsats 4 (needs 6)
+WARNING:dronekit:Link timeout, no heartbeat in last 5 seconds
+CRITICAL:autopilot:PreArm: GPS numsats 4 (needs 6)
+CRITICAL:autopilot:PreArm: GPS vert error 69.4m (needs < 7.5)
+CRITICAL:autopilot:PreArm: GPS vert error 65.1m (needs < 7.5)
+CRITICAL:autopilot:PreArm: GPS vert error 52.1m (needs < 7.5)
+CRITICAL:autopilot:PreArm: GPS vert error 52.0m (needs < 7.5)
+CRITICAL:autopilot:PreArm: GPS vert error 52.1m (needs < 7.5)
+WARNING:autopilot:EKF primary changed:1
+WARNING:autopilot:EKF primary changed:0
+CRITICAL:autopilot:PreArm: GPS vert error 43.1m (needs < 7.5)
+CRITICAL:autopilot:PreArm: GPS vert error 52.2m (needs < 7.5)
+CRITICAL:autopilot:PreArm: GPS vert error 52.2m (needs < 7.5)
+CRITICAL:autopilot:PreArm: GPS vert error 52.3m (needs < 7.5)
+CRITICAL:autopilot:PreArm: GPS vert error 37.1m (needs < 7.5)
+CRITICAL:autopilot:NavEKF2: lane switch 1
+WARNING:autopilot:EKF primary changed:1
+WARNING:dronekit:Link timeout, no heartbeat in last 5 seconds
+CRITICAL:autopilot:PreArm: Need 3D Fix
+CRITICAL:autopilot:Crash: Disarming
+WARNING:dronekit:Link timeout, no heartbeat in last 5 seconds
+CRITICAL:autopilot:PreArm: EKF starting GPS checks
+WARNING:autopilot:Flight mode change failed
+WARNING:autopilot:Flight mode change failed
+WARNING:dronekit:Link timeout, no heartbeat in last 5 seconds
+CRITICAL:autopilot:PreArm: EKF starting GPS checks
+servo activated
+Traceback (most recent call last):
+  File "guideLand.py", line 206, in <module>
+    arm()
+  File "guideLand.py", line 27, in arm
+    while vehicle.channels['6'] < 1500:
+TypeError: '<' not supported between instances of 'NoneType' and 'int'
+WARNING:dronekit:Link timeout, no heartbeat in last 5 seconds
+CRITICAL:autopilot:PreArm: Waiting for 3D fix
+CRITICAL:autopilot:PreArm: Waiting for 3D fix
