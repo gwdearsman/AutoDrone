@@ -96,6 +96,6 @@ on last line : @reboot bash /home/pi/bash startup
 
 i2c screen setup:
 sudo apt-get install i2c-tools
-sudo apt-get install python3-smbus
+pip3 install smbus
 i2cdetect -y 1        27
 change address in I2C_LCD_Driver.py
