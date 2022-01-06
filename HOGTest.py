@@ -70,6 +70,9 @@ def track():
                 speed = 0
             else:
                 speed = fwTopSpeed = 0.3 #m/s
+        else:
+            speed = 0
+        
         up_velocity = y_rel/(120/vertSpeed)
         
         print("area = " + str(area))
