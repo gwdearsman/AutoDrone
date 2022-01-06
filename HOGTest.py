@@ -13,6 +13,9 @@ from pymavlink import mavutil
 #####################################################################################################
 
 cap = cv2.VideoCapture(0)
+success,img = cap.read()
+imgResult = img.copy()
+
 hog = cv2.HOGDescriptor()
 hog.setSVMDetector(cv2.HOGDescriptor_getDefaultPeopleDetector())
 
@@ -53,6 +56,7 @@ def track():
         success,img = cap.read()
         imgResult = img.copy()
         xA, yA, xB, yB, imgResult = findPerson(img)
+        cv2.imshow('img', imgResult)
         #converts 0,0 position from top left corner to center of camera
         area = (xB-xA)*(yB-yA)
         x_rel = xA-160
@@ -71,7 +75,9 @@ def track():
         print("area = " + str(area))
         print("moving at " + str(speed) + " m/s forward")
         print("moving at " + str(up_velocity) + "m/s vertically")
-        cv2.imshow('img', imgResult)
+        if cv2.waitKey(int(1000/refreshRate)) >= 0:
+            break
+
 
 #####################################################################################################
 ########################################Start of Code################################################
