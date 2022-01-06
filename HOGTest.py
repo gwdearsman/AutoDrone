@@ -18,7 +18,7 @@ hog.setSVMDetector(cv2.HOGDescriptor_getDefaultPeopleDetector())
 cap = cv2.VideoCapture(0)
 
 #write output video
-out = cv2.VideoWriter('output.avi', cv2.VideoWriter_fourcc(*'MJPG'), 15., (640,480))
+#out = cv2.VideoWriter('output.avi', cv2.VideoWriter_fourcc(*'MJPG'), 15., (640,480))
 
 def findPerson():
     while(True):
@@ -35,7 +35,7 @@ def findPerson():
             #display te detected boxes in img
             cv2.rectangle(img, (xA, yA), (xB, yB), (255,0,0), 2)
         
-        out.write(img.astype('uint8'))
+        #out.write(img.astype('uint8'))
         cv2.imshow('img', img)
         if cv2.waitKey(1) > 0:
             break
