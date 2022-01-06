@@ -28,7 +28,7 @@ def findPerson():
         img = cv2.resize(img, (640, 480))
         imgGray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
-        boxes, weights = hog.detectMultiScale(imgGray, winStride=(8,8))
+        boxes, weights = hog.detectMultiScale(img, winStride=(8,8))
         boxes = np.array([[x,y,x+w,y+h] for (x,y,w,h) in boxes])
 
         for (xA, yA, xB, yB) in boxes:
