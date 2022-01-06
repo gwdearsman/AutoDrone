@@ -86,7 +86,7 @@ def send_ned_velocity(velocity_x, velocity_y, velocity_z, duration):
     time.sleep(duration)
 
 
-def condition_yaw(heading, relative=False):
+def condition_yaw(heading, relative=True):
     if relative:
         is_relative=1 #yaw relative to direction of travel
     else:
