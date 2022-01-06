@@ -46,6 +46,7 @@ def track():
     swTopSpeed = 0.3 #m/s
     vertSpeed = 0.4 #m/s
     refreshRate = 10 #Hz
+    speed = 0
 
     print("yaw set")
     time.sleep(1)
