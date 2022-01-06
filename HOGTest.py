@@ -62,7 +62,7 @@ def track():
         x_rel = (xA+xB)/2-160
         y_rel = 120-(yA+yB)/2
         if y_rel == 60:
-            y_rel = 120
+            y_rel = 0
         angle = x_rel/20
         if abs(angle) < 3:
             angle = 0
