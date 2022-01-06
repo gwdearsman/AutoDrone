@@ -34,10 +34,11 @@ def findPerson(img):
     for (xA, yA, xB, yB) in boxes:
         #display te detected boxes in img
         cv2.rectangle(img, (xA, yA), (xB, yB), (255,0,0), 2)
+        x,y,w,h = xA,yA,xB,yB
         
     out.write(img.astype('uint8'))
     cv2.imshow('img', img)
-    return boxes
+    return x,y,w,h
 
 
 def track():
