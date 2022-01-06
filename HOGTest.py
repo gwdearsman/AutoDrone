@@ -22,7 +22,7 @@ hog.setSVMDetector(cv2.HOGDescriptor_getDefaultPeopleDetector())
 #write output video
 
 def findPerson(img):
-    out = cv2.VideoWriter('output.avi', cv2.VideoWriter_fourcc(*'MJPG'), 5., (320,240))
+    #out = cv2.VideoWriter('output.avi', cv2.VideoWriter_fourcc(*'MJPG'), 5., (320,240))
     x,y,w,h = 160,120,0,0
     #resizing for smaller file
     img = cv2.resize(img, (320, 240))
@@ -36,7 +36,7 @@ def findPerson(img):
         cv2.rectangle(img, (xA, yA), (xB, yB), (255,0,0), 2)
         x,y,w,h = xA,yA,xB,yB
         
-    out.write(img.astype('uint8'))
+    #out.write(img.astype('uint8'))
     return x,y,w,h,img
 
 
@@ -54,7 +54,7 @@ def track():
     while True:
         success,img = cap.read()
         imgResult = img.copy()
-        xA, yA, xB, yB, imgPerson = findPerson(imgResult)
+        xA, yA, xB, yB, imgResult = findPerson(img)
         #converts 0,0 position from top left corner to center of camera
         area = (xB-xA)*(yB-yA)
         x_rel = xA-160
@@ -73,7 +73,7 @@ def track():
         print("area = " + str(area))
         print("moving at " + str(speed) + " m/s forward")
         print("moving at " + str(up_velocity) + "m/s vertically")
-        cv2.imshow('img', imgPerson)
+        cv2.imshow('img', imgResult)
 
 #####################################################################################################
 ########################################Start of Code################################################
