@@ -124,35 +124,32 @@ def condition_servo(servo_num, pwm_value):
 cap = cv2.VideoCapture(0)
 success,img = cap.read()
 imgResult = img.copy()
-White = [0,0,190,43,43,255]
-def findColor(img,White):
-    #converts image to HSV color spectrum, less sensitive to lighting as compared to RGB
-	imgHSV = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
-	lower = np.array([White[0],White[1],White[2]])
-	upper = np.array([White[3],White[4],White[5]])
-	mask = cv2.inRange(imgHSV,lower,upper)
-	x,y,img=getContours(img,mask)
-	cv2.circle(img,(x,y),10,(255,0,0),cv2.FILLED)
-    #slaps a beautiful blue circle onto the detected object
-	return x,y,img
+hog = cv2.HOGDescriptor()
+hog.setSVMDetector(cv2.HOGDescriptor_getDefaultPeopleDetector())
 
-def getContours(img,mask):
-    #inputs a masked image from findColor and maps its contours
-	x,y,w,h = 320,220,0,0
-	contours,hierarchy = cv2.findContours(mask,cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_NONE)
-	for cnt in contours:
-		area = cv2.contourArea(cnt)
-		if area>100:
-            #removes noise by excluding small areas
-			print("Area of Target: " + str())
-			cv2.drawContours(img, cnt, -1, (255,0,0), 3)
-			peri = cv2.arcLength(cnt,True)
-			approx = cv2.approxPolyDP(cnt,0.02*peri,True)
-			x, y, w, h = cv2.boundingRect(approx)
-        #returns the bounding box centerpoint for the detected color
-	return x+w//2,y+h//2,img
 
-def trackLand():
+#write output video
+
+def findPerson(img):
+    out = cv2.VideoWriter('output.avi', cv2.VideoWriter_fourcc(*'MJPG'), 5., (320,240))
+    x,y,w,h = 160,120,0,0
+    #resizing for smaller file
+    img = cv2.resize(img, (320, 240))
+    imgGray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+
+    boxes, weights = hog.detectMultiScale(img, winStride=(8,8))
+    boxes = np.array([[x,y,x+w,y+h] for (x,y,w,h) in boxes])
+
+    for (xA, yA, xB, yB) in boxes:
+        #display te detected boxes in img
+        cv2.rectangle(img, (xA, yA), (xB, yB), (255,0,0), 2)
+        
+    out.write(img.astype('uint8'))
+    cv2.imshow('img', img)
+    return boxes
+
+
+def track():
     fwTopSpeed = 0.3 #m/s
     swTopSpeed = 0.3 #m/s
     vertSpeed = 0.4 #m/s
@@ -161,7 +158,7 @@ def trackLand():
     print("setting yaw")
     #Orients drone North. The need for this has been removed after switching
     # to body coordinates from NED. It can remain for debugging purposes
-    condition_yaw(0,False)
+    condition_yaw(0,True)
     print("yaw set")
     time.sleep(1)
 
@@ -169,24 +166,23 @@ def trackLand():
     while True:
         success,img = cap.read()
         imgResult = img.copy()
-        x,y,imgResult = findColor(img, White)
+        xA, yA, xB, yB = findPerson(img)
         #converts 0,0 position from top left corner to center of camera
-        x_rel = x-320
-        y_rel = 220-y
-        print("x location: " + str(x_rel) + "  y location: " + str(y_rel))
-        print("Altitude: " + str(vehicle.location.global_relative_frame.alt))
-        #converts pixel offset to velocity settings
-        sw_velocity = x_rel/(320/swTopSpeed)
-        fw_velocity = y_rel/(220/fwTopSpeed)
-        send_ned_velocity(fw_velocity,sw_velocity,vertSpeed,1/refreshRate)
-        if vehicle.location.global_relative_frame.alt<=2:
-            #safe landing when approaching ground
-            print("close to ground, preparing to drop off")
-            send_ned_velocity(0,0,0,1/refreshRate)
-            condition_servo(9,2000)
-            time.sleep(2)
-            vehicle.mode = VehicleMode("RTL")
-            break
+        area = (xB-xA)*(yB-yA)
+        x_rel = xA-160
+        y_rel = 120-yA
+        angle = x_rel/4
+        if abs(angle) < 4:
+            angle = 0
+        condition_yaw(angle,True)
+        if area<8000:
+            if area<50:
+                speed = 0
+            else:
+                speed = fwTopSpeed = 0.3 #m/s
+        up_velocity = y_rel/(120/vertSpeed)
+        send_ned_velocity(speed,0,up_velocity,1/refreshRate)
+
 
 
 #####################################################################################################
