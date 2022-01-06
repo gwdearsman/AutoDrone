@@ -53,7 +53,7 @@ def track():
     while True:
         success,img = cap.read()
         imgResult = img.copy()
-        xA, yA, xB, yB = findPerson(img)
+        xA, yA, xB, yB = findPerson(imgResult)
         #converts 0,0 position from top left corner to center of camera
         area = (xB-xA)*(yB-yA)
         x_rel = xA-160
