@@ -62,7 +62,7 @@ def track():
         angle = x_rel/4
         if abs(angle) < 4:
             angle = 0
-        print("yaw rotating by " + angle + " degrees")
+        print("yaw rotating by " + str(angle) + " degrees")
         if area<8000:
             if area<50:
                 speed = 0
@@ -70,9 +70,9 @@ def track():
                 speed = fwTopSpeed = 0.3 #m/s
         up_velocity = y_rel/(120/vertSpeed)
         
-        print("area = " + area)
-        print("moving at " + speed + " m/s forward")
-        print("moving at " + up_velocity + " m/s vertically")
+        print("area = " + str(area))
+        print("moving at " + str(speed) + " m/s forward")
+        print("moving at " + str(up_velocity) + "m/s vertically")
 
 #####################################################################################################
 ########################################Start of Code################################################
