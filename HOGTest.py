@@ -13,8 +13,6 @@ from pymavlink import mavutil
 #####################################################################################################
 
 cap = cv2.VideoCapture(0)
-success,img = cap.read()
-imgResult = img.copy()
 hog = cv2.HOGDescriptor()
 hog.setSVMDetector(cv2.HOGDescriptor_getDefaultPeopleDetector())
 
