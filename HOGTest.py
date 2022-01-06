@@ -63,7 +63,7 @@ def track():
         if abs(angle) < 4:
             angle = 0
         print("yaw rotating by " + str(angle) + " degrees")
-        if area<8000:
+        if area<10000:
             if area<50:
                 speed = 0
             else:
