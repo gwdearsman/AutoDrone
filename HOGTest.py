@@ -59,8 +59,8 @@ def track():
         cv2.imshow('img', imgResult)
         #converts 0,0 position from top left corner to center of camera
         area = (xB-xA)*(yB-yA)
-        x_rel = xA-160
-        y_rel = 120-yA
+        x_rel = (xA+xB)/2-160
+        y_rel = 120-(yA+yB)/2
         angle = x_rel/20
         if abs(angle) < 3:
             angle = 0
