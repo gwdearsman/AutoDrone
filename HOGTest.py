@@ -40,6 +40,7 @@ def findPerson():
         if cv2.waitKey(1) > 0:
             break
     cap.release()
+    out.release()
     cv2.destroyAllWindows()
 
 
