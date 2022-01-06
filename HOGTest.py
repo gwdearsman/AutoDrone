@@ -39,7 +39,7 @@ def findPerson():
         
         out.write(img.astype('uint8'))
         cv2.imshow('img', img)
-        if cv2.waitkey(1):
+        if cv2.waitKey(1):
             break
 
 
