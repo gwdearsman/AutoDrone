@@ -15,11 +15,11 @@ from pymavlink import mavutil
 hog = cv2.HOGDescriptor()
 hog.setSVMDetector(cv2.HOGDescriptor_getDefaultPeopleDetector())
 
-cap = cv2.VideoCapture(0)
 
 #write output video
 
 def findPerson():
+    cap = cv2.VideoCapture(0)
     out = cv2.VideoWriter('output.avi', cv2.VideoWriter_fourcc(*'MJPG'), 15., (320,240))
     while(True):
         ret, img = cap.read()
