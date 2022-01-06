@@ -18,7 +18,7 @@ hog.setSVMDetector(cv2.HOGDescriptor_getDefaultPeopleDetector())
 cap = cv2.VideoCapture(0)
 
 #write output video
-out = cv2.VideoWriter('output.mp4', cv2.VideoWriter_fourcc(*'XVID'), 15., (320,240))
+out = cv2.VideoWriter('output.mp4', cv2.VideoWriter_fourcc(*'MJPG'), 15., (320,240))
 
 def findPerson():
     while(True):
