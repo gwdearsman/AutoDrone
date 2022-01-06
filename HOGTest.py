@@ -61,8 +61,8 @@ def track():
         area = (xB-xA)*(yB-yA)
         x_rel = xA-160
         y_rel = 120-yA
-        angle = x_rel/4
-        if abs(angle) < 40:
+        angle = x_rel/20
+        if abs(angle) < 3:
             angle = 0
         print("yaw rotating by " + str(angle) + " degrees")
         if area<14000:
