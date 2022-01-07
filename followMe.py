@@ -173,7 +173,7 @@ def track():
         area, x_rel, y_rel, imgResult = findPerson(img)
         cv2.imshow('img', imgResult)
 
-        angle = x_rel/10
+        angle = x_rel/20
         up_velocity = y_rel*(vertSpeed/-60)
         if area < 16000:
             if area < 100:
@@ -184,13 +184,13 @@ def track():
             speed = 0
         
         print("yaw rotating by " + str(angle) + " degrees")
-        #condition_yaw(angle,True)
+        condition_yaw(angle,True)
 
         print("area = " + str(area))
         print("moving at " + str(speed) + " m/s forward")
         print("moving at " + str(up_velocity) + "m/s vertically")
 
-        #send_ned_velocity(speed,0,up_velocity,)
+        send_ned_velocity(speed,0,up_velocity,)
 
         if cv2.waitKey(1) >= 0:
             break
@@ -205,13 +205,13 @@ def track():
 #####################################################################################################
 
 
-#vehicle = connectMyCopter()
-#vehicle.airspeed = 5
+vehicle = connectMyCopter()
+vehicle.airspeed = 5
 
 
 time.sleep(1)
-#arm()
-#takeoff(6)
+arm()
+takeoff(2)
 track()
 
 print("end of script")
