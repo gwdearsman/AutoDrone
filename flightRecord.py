@@ -21,8 +21,6 @@ while(True):
     cv2.imshow("Video", img)
     if cv2.waitKey(1) > 0:
         break
-cap.release()
-out.release()
-cv2.destroyAllWindows()
+
 
 
