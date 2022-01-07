@@ -13,7 +13,7 @@ from pymavlink import mavutil
 #####################################################################################################
 
 cap = cv2.VideoCapture(0)
-out = cv2.VideoWriter('output.avi', cv2.VideoWriter_fourcc(*'MJPG'), 10, (640,480))
+out = cv2.VideoWriter('output.avi', cv2.VideoWriter_fourcc(*'MJPG'), 10, (1280,720))
 while(cap.isOpened()):
     ret, frame = cap.read()
     if(ret==True):
