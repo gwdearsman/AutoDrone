@@ -13,10 +13,16 @@ from pymavlink import mavutil
 #####################################################################################################
 
 cap = cv2.VideoCapture(0)
+out = cv2.VideoWriter('output.avi', cv2.VideoWriter_fourcc(*'MJPG'), 20., (640,480))
 while(True):
     success,img = cap.read()
-    out = cv2.VideoWriter('output.avi', cv2.VideoWriter_fourcc(*'MJPG'), 5., (320,240))
-    img = cv2.resize(img, (320, 240))
+    img = cv2.resize(img, (640, 480))
     out.write(img.astype('uint8'))
+    cv2.imshow("Video", img)
+    if cv2.waitKey(1) > 0:
+        break
+cap.release()
+out.release()
+cv2.destroyAllWindows()
 
 
