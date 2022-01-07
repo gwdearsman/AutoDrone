@@ -69,7 +69,7 @@ def landHome():
     vehicle.mode = VehicleMode("RTL")
 
 #MAV_FRAME_BODY_OFFSET_NED sets NORTH=Forward and EAST=Right
-def send_ned_velocity(velocity_x, velocity_y, velocity_z, duration):
+def send_ned_velocity(velocity_x, velocity_y, velocity_z):
     """
     Move vehicle in direction based on specified velocity vectors.
     """
@@ -83,7 +83,6 @@ def send_ned_velocity(velocity_x, velocity_y, velocity_z, duration):
         0, 0, 0, # x, y, z acceleration (not supported yet, ignored in GCS_Mavlink)
         0, 0)    # yaw, yaw_rate (not supported yet, ignored in GCS_Mavlink)
     vehicle.send_mavlink(msg)
-    time.sleep(duration)
 
 
 def condition_yaw(heading, relative=True):
@@ -145,59 +144,55 @@ def findPerson(img):
         #display te detected boxes in img
         cv2.rectangle(img, (xA, yA), (xB, yB), (255,0,0), 2)
         x,y,w,h = xA,yA,xB,yB
-        
+
+    if w == 0:
+        area = 0
+        x_rel = 0
+        y_rel = 0
+    else:
+        area = (w-x)*(h-y)
+        x_rel = (x+w)/2-160
+        y_rel = 120-(yA+yB)/2
+
     #out.write(img.astype('uint8'))
-    return x,y,w,h,img
+    return area,x_rel,y_rel,img
 
 
 def track():
-    fwTopSpeed = 0.3 #m/s
-    swTopSpeed = 0.3 #m/s
+    fwTopSpeed = 0.5 #m/s
+    swTopSpeed = 0.5 #m/s
     vertSpeed = 0.4 #m/s
-    refreshRate = 10 #Hz
     speed = 0
 
-    print("setting yaw")
-    #Orients drone North. The need for this has been removed after switching
-    # to body coordinates from NED. It can remain for debugging purposes
-    condition_yaw(0,True)
-    print("yaw set")
     time.sleep(1)
-
 
     print("starting object tracking")
     while True:
         success,img = cap.read()
         imgResult = img.copy()
-        xA, yA, xB, yB, imgResult = findPerson(img)
+        area, x_rel, y_rel, imgResult = findPerson(img)
         cv2.imshow('img', imgResult)
-        #converts 0,0 position from top left corner to center of camera
-        area = (xB-xA)*(yB-yA)
-        x_rel = (xA+xB)/2-160
-        y_rel = 120-(yA+yB)/2
-        if y_rel == 60:
-            y_rel = 0
-        angle = x_rel/20
-        if abs(angle) < 3:
-            angle = 0
-        print("yaw rotating by " + str(angle) + " degrees")
-        if area<14000:
-            if area<50:
+
+        angle = x_rel/10
+        up_velocity = y_rel*(vertSpeed/-60)
+        if area < 16000:
+            if area < 100:
                 speed = 0
             else:
-                speed = fwTopSpeed = 0.3 #m/s
+                speed = fwTopSpeed
         else:
             speed = 0
         
-        up_velocity = y_rel/(120/vertSpeed)
+        print("yaw rotating by " + str(angle) + " degrees")
         condition_yaw(angle,True)
+
         print("area = " + str(area))
         print("moving at " + str(speed) + " m/s forward")
         print("moving at " + str(up_velocity) + "m/s vertically")
 
-        send_ned_velocity(speed,0,up_velocity,1/refreshRate)
+        send_ned_velocity(speed,0,up_velocity,)
 
-        if cv2.waitKey(int(1000/refreshRate)) >= 0:
+        if cv2.waitKey(1) >= 0:
             break
 #write output video
 
@@ -210,13 +205,13 @@ def track():
 #####################################################################################################
 
 
-vehicle = connectMyCopter()
-vehicle.airspeed = 5
+#vehicle = connectMyCopter()
+#vehicle.airspeed = 5
 
 
 time.sleep(1)
-arm()
-takeoff(6)
+#arm()
+#takeoff(6)
 track()
 
 print("end of script")
