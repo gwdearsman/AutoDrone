@@ -184,13 +184,13 @@ def track():
             speed = 0
         
         print("yaw rotating by " + str(angle) + " degrees")
-        condition_yaw(angle,True)
+        #condition_yaw(angle,True)
 
         print("area = " + str(area))
         print("moving at " + str(speed) + " m/s forward")
         print("moving at " + str(up_velocity) + "m/s vertically")
 
-        send_ned_velocity(speed,0,up_velocity,)
+        #send_ned_velocity(speed,0,up_velocity,)
 
         if cv2.waitKey(1) >= 0:
             break
