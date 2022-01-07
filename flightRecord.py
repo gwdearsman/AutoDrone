@@ -13,7 +13,7 @@ from pymavlink import mavutil
 #####################################################################################################
 
 cap = cv2.VideoCapture(0)
-while(true):
+while(True):
     success,img = cap.read()
     out = cv2.VideoWriter('output.avi', cv2.VideoWriter_fourcc(*'MJPG'), 5., (320,240))
     img = cv2.resize(img, (320, 240))
