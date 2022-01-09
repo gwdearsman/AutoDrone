@@ -12,7 +12,7 @@ mylcd.lcd_display_string(" 1   2   3   4  ", 2)
 adc = Adafruit_ADS1x15.ADS1115()
 GAIN = 1
 
-string = " 1   2   3   4  "
+mode = 1
 mode1 = "[1]  2   3   4  "
 mode2 = " 1  [2]  3   4  "
 mode3 = " 1   2  [3]  4  "
