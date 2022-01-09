@@ -99,3 +99,5 @@ sudo apt-get install i2c-tools
 pip3 install smbus
 i2cdetect -y 1        27
 change address in I2C_LCD_Driver.py
+
+sudo pip3 install adafruit-ads1x15
