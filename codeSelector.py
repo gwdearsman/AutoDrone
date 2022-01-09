@@ -47,19 +47,19 @@ while True:
     time.sleep(0.25)
 mylcd.lcd_display_string("Starting program:", 1)
 if mode == 1:
-  mylcd.lcd_display_string("Mode 1", 2)
+  mylcd.lcd_display_string("Mode 1         ", 2)
   process = subprocess.Popen(["python3","guideLand.py","--connect","/dev/serial0"], stdin = subprocess.PIPE, stdout = subprocess.PIPE, stderr = subprocess.PIPE, text = True)
   print(process.stdout.read())
 if mode == 2:
-  mylcd.lcd_display_string("Mode 2", 2)
+  mylcd.lcd_display_string("Mode 2         ", 2)
   process = subprocess.Popen(["python3","followMe.py.py","--connect","/dev/serial0"], stdin = subprocess.PIPE, stdout = subprocess.PIPE, stderr = subprocess.PIPE, text = True)
   print(process.stdout.read())
 if mode == 3:
-  mylcd.lcd_display_string("Mode 3", 2)
+  mylcd.lcd_display_string("Mode 3         ", 2)
   process = subprocess.Popen(["python3","guideLand.py","--connect","/dev/serial0"], stdin = subprocess.PIPE, stdout = subprocess.PIPE, stderr = subprocess.PIPE, text = True)
   print(process.stdout.read())
 if mode == 4:
-  mylcd.lcd_display_string("Mode 4", 2)
+  mylcd.lcd_display_string("Mode 4         ", 2)
   process = subprocess.Popen(["python3","followMe.py.py","--connect","/dev/serial0"], stdin = subprocess.PIPE, stdout = subprocess.PIPE, stderr = subprocess.PIPE, text = True)
   print(process.stdout.read())
 process.wait()
