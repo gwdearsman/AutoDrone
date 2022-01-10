@@ -159,7 +159,7 @@ def findPerson(img):
 
 
 def track():
-    fwTopSpeed = 0.5 #m/s
+    fwTopSpeed = 2.0 #m/s
     swTopSpeed = 0.5 #m/s
     vertSpeed = 0.4 #m/s
     speed = 0
@@ -171,7 +171,7 @@ def track():
         success,img = cap.read()
         imgResult = img.copy()
         area, x_rel, y_rel, imgResult = findPerson(img)
-        cv2.imshow('img', imgResult)
+        #cv2.imshow('img', imgResult)
 
         angle = x_rel/20
         up_velocity = y_rel*(vertSpeed/-60)
@@ -179,21 +179,20 @@ def track():
             if area < 100:
                 speed = 0
             else:
-                speed = fwTopSpeed
+                speed = fwTopSpeed*(1-area/16000)
         else:
             speed = 0
         
         print("yaw rotating by " + str(angle) + " degrees")
-        condition_yaw(int(angle),True)
+        condition_yaw(angle,True)
 
         print("area = " + str(area))
         print("moving at " + str(speed) + " m/s forward")
         print("moving at " + str(up_velocity) + "m/s vertically")
 
-        send_ned_velocity(speed,0,up_velocity)
+        send_ned_velocity(speed,0,0)
+        time.sleep(0.05)
 
-        if cv2.waitKey(1) >= 0:
-            break
 #write output video
 
 
@@ -211,7 +210,7 @@ vehicle.airspeed = 5
 
 time.sleep(1)
 arm()
-takeoff(2)
+takeoff(1.5)
 track()
 
 print("end of script")
