@@ -201,13 +201,13 @@ vehicle.airspeed = 5
 point1 = LocationGlobalRelative(28.6105938,-81.2099399,7)
 
 time.sleep(1)
-condition_servo(9,2500)
+condition_servo(9,500)
 time.sleep(3)
-condition_servo(9,2000)
+condition_servo(9,1000)
 time.sleep(3)
-condition_servo(9,2500)
+condition_servo(9,500)
 time.sleep(3)
-condition_servo(9,1500)
+condition_servo(9,1000)
 time.sleep(3)
 
 print("end of script")
