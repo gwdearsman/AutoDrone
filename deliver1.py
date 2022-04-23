@@ -210,7 +210,7 @@ print("servo activated")
 while vehicle.channels['6'] < 1800:
   if vehicle.channels['6'] <1300:
     condition_servo(9,400)
-  else
+  else:
     condition_servo(9,400)
 arm()
 takeoff(10)
